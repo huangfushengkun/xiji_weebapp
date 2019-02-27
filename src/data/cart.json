@@ -1,0 +1,74 @@
+{
+  "allShops":{
+    "totalMoney":0,
+    "shopList":[
+      {
+        "name" : "中国122仓",
+        "isSelectedAllGoods": false,
+        "goodslist": [
+          {
+            "shopId":"1001",
+            "shopName":"【轻松嚼 不塞牙】味BACK 内蒙古风干牛肉干 180g/盒 两种规格可选",
+            "shopPrice":246.00,
+            "shopNumber":1,
+            "standard": true,
+            "standardText":"规格: 1盒",
+            "Tax" : true,
+            "shopImage":"images/cart/nuirou.jpg",
+            "downPrice":true,
+            "downPriceText": "比加入时降138.00元"
+            
+          }
+        ]
+      },
+      {
+        "name" : "中国31仓",
+        "isSelectedAllGoods": false,
+        "goodslist": [
+          {
+            "shopId":"1002",
+            "shopName":"Cosme Decorte 黛珂 AQ 白檀升级版修护化妆水 200ml",
+            "shopPrice":29.00,
+            "shopNumber":1,
+            "standard": true,
+            "standardText":"规格: 1盒",
+            "Tax" : true,
+            "shopImage":"images/cart/AQ.jpg",
+            "downPrice":false,
+            "downPriceText": "比加入时降138.00元"
+          },
+          {
+            "shopId":"1003",
+            "shopName":"Arko Nem 深层滋养润肤喷雾身体乳 酸奶黑莓150ml+自然海洋150ml 组合装",
+            "shopPrice":99.00,
+            "shopNumber":1,
+            "standard": false,
+            "standardText":"规格: 1盒",
+            "Tax" : true,
+            "shopImage":"images/cart/ARKO.jpg",
+            "downPrice":false,
+            "downPriceText": "比加入时降138.00元"
+          }
+        ]
+      },
+      {
+        "name" : "西集香港七号仓发货",
+        "isSelectedAllGoods": false,
+        "goodslist": [
+          {
+            "shopId":"1004",
+            "shopName":"【尽显品味】Georg Jensen Horseshoe 牛皮U型腰带皮带 多规格可选",
+            "shopPrice":299.00,
+            "shopNumber":1,
+            "standard": false,
+            "standardText":"规格: 1盒",
+            "Tax" : true,
+            "shopImage":"images/cart/yaodai.jpg",
+            "downPrice":true,
+            "downPriceText": "比加入时降138.00元"
+          }
+        ]
+      }
+    ]
+  }
+}

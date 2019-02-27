@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/zepto.min.js"></script>
+    <!-- <script src="js/touch.js"></script> -->
+    <script src="js/base.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="top-nav">
+        <div class="home-nav">
+            <a href="#" class="item lang-setting"></a>
+            <a href="#" class="item user-right"></a>
+            <a href="#" class="logo">
+                <img src="./images/index/topbar/xiji.png" alt="">
+            </a>
+            <a href="#" class="item cart-right"></a>
+        </div>
+        <div id="index_sratch_block">
+            <form action="">
+                <div class="search">
+                    <input type="text" placeholder="娇韵诗">
+                </div>
+            </form>
+        </div>
+    </header>
+    <!--焦点图-->
+    <div class="xiji_banner swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="javascript:;">
+                    <img src="./images/index/banner/520.png" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">
+                    <img src="./images/index/banner/banner02.png" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">
+                    <img src="./images/index/banner/banner03.png" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">
+                    <img src="./images/index/banner/banner04.png" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">
+                    <img src="./images/index/banner/banner05.png" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">
+                    <img src="./images/index/banner/banner06.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- 导航 -->
+    <div class="xiji-nav">
+        <div class="index-advert-wap-inner">
+            <p><a href="#"><img src="./images/index/banner/00.png" alt=""></a></p>
+            <p>签到有礼</p>
+        </div>
+        <div class="index-advert-wap-inner">
+            <p><a href="#"><img src="./images/index/banner/01.png" alt=""></a></p>
+            <p>新人专享</p></div>
+        <div class="index-advert-wap-inner">
+            <p><a href="#"><img src="./images/index/banner/02.png" alt=""></a></p>
+            <p>领券中心</p></div>
+        <div class="index-advert-wap-inner">
+            <p><a href="#"><img src="./images/index/banner/03.png" alt=""></a></p>
+            <p>团购广场</p></div>
+        <div class="index-advert-wap-inner">
+            <p><a href="#"><img src="./images/index/banner/04.png" alt=""></a></p>
+            <p>大家都在买</p></div>
+        <div class="index-advert-wap-inner">
+            <p><a href="#"><img src="./images/index/banner/05.png" alt=""></a></p>
+            <p>商品分类</p></div>
+    </div>
+    <!-- 进入会场 -->
+    <div class="xj-horizontal-box">
+        <a href="#">
+            <img src="./images/index/banner/5202.png" alt="">
+        </a>
+    </div>
+    <!-- 新用户专区 -->
+    <div class="xj-newuser-box">
+        <div class="newuser-top">
+            <a href="#"><img src="./images/index/new-user/index_n_title.png" alt=""></a>
+        </div>
+        <div class="newuser-content">
+            <a href="#"><img src="./images/index/new-user/index_n_newlyweds.png" alt=""></a>
+        </div>
+        <div class="newuser-botttom">
+            <div class="newuser-botttom-left">
+                <a href="#"><img src="./images/index/new-user/index_n_clicksend.png" alt=""></a>
+            </div>
+            <div class="newuser-botttom-right">
+                <div class="newuser-botttom-right-top">
+                    <div><a href="#"><img src="./images/index/new-user/index_n_teambuy.png" alt=""></a></div>
+                    <div><a href="#"><img src="./images/index/new-user/index_n_firstorder.png" alt=""></a></div>
+                </div>
+                <div class="newuser-botttom-right-bot"><a href="#"><img src="./images/index/new-user/index_n_popgoods.png" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+    <!-- 每日底价 -->
+    <div class="xj-limitprice-box">
+        <div class="heading-block today-bg">
+            <h2>每日限时底价</h2>
+            <a href="#">明日预告</a>
+        </div>
+        <div class="daily_special">
+            <ul>
+                <li><a href="#">
+                    <div class="goods-img">
+                        <img src="./images/index/main/tomo-item01.jpg" alt="">
+                    </div>
+                    <div class="goods-info">
+                        <div class="goods-name">【可爱贴心】IKUJIKOBO 育儿工房 婴儿创意搭配礼盒 1号</div>
+                        <div class="pri-box">
+                            <div class="goods-price">￥139.00</div>
+                            <div class="goods-delete">￥229.00</div>
+                        </div>
+                    </div>
+                </a></li>
+                 <li><a href="#">
+                    <div class="goods-img">
+                        <img src="./images/index/main/tomo-item01.jpg" alt="">
+                    </div>
+                    <div class="goods-info">
+                        <div class="goods-name">【可爱贴心】IKUJIKOBO 育儿工房 婴儿创意搭配礼盒 1号</div>
+                        <div class="pri-box">
+                            <div class="goods-price">￥139.00</div>
+                            <div class="goods-delete">￥229.00</div>
+                        </div>
+                    </div>
+                </a></li>
+                 <li><a href="#">
+                    <div class="goods-img">
+                        <img src="./images/index/main/tomo-item01.jpg" alt="">
+                    </div>
+                    <div class="goods-info">
+                        <div class="goods-name">【可爱贴心】IKUJIKOBO 育儿工房 婴儿创意搭配礼盒 1号</div>
+                        <div class="pri-box">
+                            <div class="goods-price">￥139.00</div>
+                            <div class="goods-delete">￥229.00</div>
+                        </div>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="goods-img">
+                        <img src="./images/index/main/tomo-item01.jpg" alt="">
+                    </div>
+                    <div class="goods-info">
+                        <div class="goods-name">【可爱贴心】IKUJIKOBO 育儿工房 婴儿创意搭配礼盒 1号</div>
+                        <div class="pri-box">
+                            <div class="goods-price">￥139.00</div>
+                            <div class="goods-delete">￥229.00</div>
+                        </div>
+                    </div>
+                </a></li>
+            </ul>
+        </div>
+        <!-- 倒计时 -->
+        <div class="time-countdown">
+            <span class="ttl-box">距离本场结束还剩</span>
+            <span class="time-box"><i>11</i><i>22</i><i>31</i></span>
+        </div>
+    </div>
+    <!-- 春节通知 -->
+    <div class="xj-notices-box">
+        <div class="notices-tit" ></div>
+        <div class="notices-con" id="notices_con"><a href="#">西集春节期间安排通知</a></div>
+    </div>
+    <!-- 情人节特别板块 -->
+    <div class="xj-slider_down" id="xj_slider_down">
+        <ul class="clearfix"> 
+            <li class="small"><a href="/wap/article-index_wap-1322.html"><img src="./images/index/main/flower.png" alt=""></a></li>
+            <li class="small"><a href="/wap/article-index_wap-1125.html"><img src="./images/index/main/flower.png" alt=""></a></li>
+            <li class="small"><a href="/wap/article-index_wap-184.html"><img src="./images/index/main/flower.png" alt=""></a></li>
+            <li class="small"><a href="/wap/article-index_wap-967.html"><img src="./images/index/main/flower.png" alt=""></a></li>
+        </ul>
+    </div>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+    </script>
+</body>
+</html>

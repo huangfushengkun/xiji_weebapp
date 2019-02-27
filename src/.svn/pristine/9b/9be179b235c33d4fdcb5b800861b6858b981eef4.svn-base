@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/commodity-details.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+
+<body>
+    <!-- 商品详情头部 -->
+    <header>
+        <div class="a-bar">
+            <a href="index.html" class="a-back">返回</a>
+            <h1 class="pt-name">
+                【结实耐用】Stanley 史丹利 Adventure 真空不锈钢保温杯 多规格可选
+            </h1>
+            <a href="index.html" class="xj-wap-a-home">返回首页</a>
+        </div>
+    </header>
+    <!-- 商品图片 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/commodity-details/20190216114504_03.gif" alt=""></div>
+            <div class="swiper-slide"><img src="images/commodity-details/20190216114520_03.gif" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- 商品价格 -->
+    <div class="xj-fastsale-price-inner">
+        <div class="fastsale-pri">
+            <div class="price defalt-pri-top">
+                <span class="price-sign">￥</span>
+                <span class="price-num">1,878.72</span>
+            </div>
+            <div class="mktprice defalt-pri-mk">
+                <label>特卖</label>
+                <span class="freeship">￥2,678.72</span>
+                <span class="freeship-tag">包邮</span>
+            </div>
+        </div>
+        <!-- 降价通知 -->
+        <div class="cut-price-btn ">
+            <a href="#">降价通知</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <span class="box-tit">非自营</span>【迪士尼限定款】K-palette 1DAY TATOO 24小时持久 3in1 眉笔+眉粉+眉刷 迪士尼限定款 多色号可选
+    </div>
+    <div class="tableStyle">
+        <!-- 已选择 -->
+        <div class="table_tr">
+            <span class="label">已选择</span>
+            <div class="detail">
+                <div class="clearfix">
+                    <div><span id="choose_txt">01亮棕, </span>
+                        <span id="choose_num" class="num-ipt">1</span>件
+                    </div>
+                    <i class="arrow-icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  -->
+<div class="xj-box-bc"></div>
+<div class="popup_buy_view_div pt-sku">
+        <div class="xj-spec-box-inner">
+            <!-- 商品规格 -->
+            <div class="sel-sku">
+                <div class="img-block">
+                    <img src="images/commodity-details/e79d56fac9ab2915c98f4100ae7f2610.jpg" alt="汤丽·柏琦(Tory Burch)TB女包菱格流苏链条包单肩斜挎包小号31382 ">
+                </div>
+                <div class="col price xj-pri">
+                    <b class="price">￥2,678.72</b>
+                </div>
+                <div class="pop-active-tag">
+                    <span>包邮</span>
+                    <span>现价￥1,878.72（需用券）</span>
+                </div>
+                <div class="closeBtn">关闭</div>
+            </div>
+            <!--商品规格-->
+            <div class="sel-sku-box">
+                <div class="xj-limitnum">
+                    <div class="sku-list">
+                        <div class="k">颜色</div>
+                        <div class="v">
+                            <a class="sku" href="#">大红色</a>
+                            <a class="sku" href="#">黑色</a>
+                            <a class="sku" href="#">酒红色</a>
+                            <a class="sku" href="#">裸粉色</a>
+                            <a class="sku sel" href="#">绿色</a>
+                            <a class="sku" href="#">深蓝色</a>
+                            <a class="sku" href="#">浅蓝色</a>
+                        </div>
+                    </div>
+                    <div class="pt-num J-pt-num">
+                        <label>数量</label>
+                        <div class="num">
+                            <span class="minus">-</span>
+                            <input type="text" value="1" class="num-ipt">
+                            <span class="plus">+</span>
+                        </div>
+                        <span>个</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--商品按钮 在主页展示-->
+            <div class="popup-btn-box hide">
+                <div class="popup-btn goods-btn">
+                    <a href="#">加入购物车</a>
+                    <a href="#">立即购买</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  -->
+
+    <div class="box-it">
+        <div class="xj-bxo-tit">
+            <div class="distribution">
+                <span>配送</span>
+                <div class="crt">
+                    <div class="crt-txt1">日本至中国支持配送</div>
+                    <div class="crt-txt2">发货后7-15个工作日内送达</div>
+                </div>
+            </div>
+            <div class="weight">
+                <span>重量</span>
+                <div class="crt">20g</div>
+            </div>
+            <div class="explain">
+                <span>说明</span>
+                <em></em>
+                <div class="crt">不可使用优惠券</div>
+                <i class="crt-icon"></i>
+            </div>
+        </div>
+    </div>
+    <!-- 心动理由开始 -->
+    <div class="product-tags-block">
+        <p class="tag-title">心动理由</p>
+        <div class="pro-intro">
+            迪士尼数量限定包装，先到先得！3in1的独特设计，旋转眉笔，软硬适中的椭圆形，旋转笔尖的设计，线条粗细可自由掌控。眉粉，浓淡适中的沾取眉粉，粉质细腻，易上色。眉刷，梳理眉形，均匀眉色。总体来说笔触加上晕染，方便修型矫正，自带笔刷设计，含20种类美容保养成分，让妆容保持更持久的同时不用担心色素沉淀。
+        </div>
+        <div class="top-box">
+            <ul class="clearfix">
+                <li class="buy-num">
+                    <span class="icon"></span>销量
+                    <span class="num">87</span>
+                </li>
+                <li class="favorite-num">
+                    <span class="icon"></span>收藏
+                    <span class="num">554</span>
+                </li>
+                <li class="browse-num">
+                    <span class="icon"></span>浏览
+                    <span class="num">2473</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 商品评价开始 -->
+    <div class="pt-detail comment-box">
+        <div class="tit">
+            <a href="#">商品评价
+                <span>（5）</span>
+            </a>
+        </div>
+        <div class="comment_list">
+            <a href="#">
+                <div class="comment-header clearfix">
+                    <span class="head-img"></span>
+                    <span class="author">1**0:</span>
+                    <span class="goods-point">
+                        <span class="point-top item05"></span>
+                        <span class="point-bottom"></span>
+                    </span>
+                    <span class="reg-country">西集美国用户</span>
+                </div>
+                <div class="comment-footer clearfix">
+                    <span class="spec-info">颜色：黑色</span>
+                </div>
+            </a>
+            <div class="comment-content">
+                <a href="#">tb在国内卖的好贵，还好有西集能省点钱，包包收到啦，美美的</a>
+                <ul class="clearfix xj-slider-item">
+                    <li>
+                        <img src="images/commodity-details/94c43a836f100b73ef1cd8298f88c4e6b41d45c7.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="btnBlock">
+            <a href="#">查看全部评价</a>
+        </div>
+    </div>
+    <!-- 专属推荐开始 -->
+    <div class="pt-detail xj-related-goods-box">
+        <div class="titStyle">专属推荐</div>
+        <div class="related-goods-list">
+            <ul class="clearfix">
+                <li>
+                    <div class="img-box">
+                        <a href="#" title="【时尚单肩背】Dickies 帝客 时尚英文印花简约织带单肩斜挎包 多颜色可选">
+                            <img src="images/commodity-details/e08003aa3898a86bc48ac4be3e30dd3c5b4406d3.jpg"
+                                alt="【时尚单肩背】Dickies 帝客 时尚英文印花简约织带单肩斜挎包 多颜色可选">
+                        </a>
+                    </div>
+                    <div class="cont-tit-box">
+                        <a href="#" title="【时尚单肩背】Dickies 帝客 时尚英文印花简约织带单肩斜挎包 多颜色可选">【时尚单肩背】Dickies 帝客
+                            时尚英文印花简约织带单肩斜挎包
+                            多颜色可选</a>
+                    </div>
+                    <div class="price-box">￥129.00</div>
+                </li>
+                <li>
+                    <div class="img-box">
+                        <a href="#" title="【透明潮爆 现代十足】Butler Verner Sails 炫色字母两用托特包/单肩斜挎包 JA-2275 多色可选">
+                            <img src="images/commodity-details/1f0ded55d5b86215028e2f08ea85b56694fed693.jpg"
+                                alt="【透明潮爆 现代十足】Butler Verner Sails 炫色字母两用托特包/单肩斜挎包 JA-2275 多色可选">
+                        </a>
+                    </div>
+                    <div class="cont-tit-box">
+                        <a href="#" title="【透明潮爆 现代十足】Butler Verner Sails 炫色字母两用托特包/单肩斜挎包 JA-2275 多色可选">【透明潮爆
+                            现代十足】Butler VernerSails 炫色字母两用托特包/单肩斜挎包 JA-2275 多色可选</a>
+                    </div>
+                    <div class="price-box">￥556.00</div>
+                </li>
+                <li>
+                    <div class="img-box">
+                        <a href="#" title="Genten 18新品 Cut Work 镂空雕花牛皮两用单肩斜挎包/水桶包/手提包 40506">
+                            <img src="images/commodity-details/ce7197c8ebc1bf75bb12b1f8b17fde269bb1ce7b.jpg"
+                                alt="Genten 18新品 Cut Work 镂空雕花牛皮两用单肩斜挎包/水桶包/手提包 40506"></a>
+                    </div>
+                    <div class="cont-tit-box">
+                        <a href="http://m.xiji.com/wap/product-76114.html"
+                            title="Genten 18新品 Cut Work 镂空雕花牛皮两用单肩斜挎包/水桶包/手提包 40506">Genten 18新品 Cut
+                            Work镂空雕花牛皮两用单肩斜挎包/水桶包/手提包 40506
+                        </a>
+                    </div>
+                    <div class="price-box">￥2,971.00</div>
+                </li>
+                <li>
+                    <div class="img-box">
+                        <a href="#" title="Loewe 罗意威 Gate系列 Small 女士斜挎包/单肩包 321.12.T20 多色可选">
+                            <img src="images/commodity-details/fd46877aa25831439419354025302a5dc2220bd8.jpg"
+                                alt="Loewe 罗意威 Gate系列 Small 女士斜挎包/单肩包 321.12.T20 多色可选">
+                        </a>
+                    </div>
+                    <div class="cont-tit-box">
+                        <a href="#" title="Loewe 罗意威 Gate系列 Small 女士斜挎包/单肩包 321.12.T20 多色可选">Loewe 罗意威 Gate系列
+                            Small
+                            女士斜挎包/单肩包321.12.T20 多色可选</a>
+                    </div>
+                    <div class="price-box">￥11,599.00</div>
+                </li>
+                <li>
+                    <div class="img-box">
+                        <a href="#" title="Michael Kors/迈克高仕 MK 男士单肩斜挎包33S6LHRC6L">
+                            <img src="images/commodity-details/88b4d248640d88e47ea944d0d682618a61a83d9f.jpg"
+                                alt="Michael Kors/迈克高仕 MK 男士单肩斜挎包33S6LHRC6L">
+                        </a>
+                    </div>
+                    <div class="cont-tit-box">
+                        <a href="#" title="Michael Kors/迈克高仕 MK 男士单肩斜挎包33S6LHRC6L">Michael Kors/迈克高仕 MK
+                            男士单肩斜挎包33S6LHRC6L</a>
+                    </div>
+                    <div class="price-box">￥1,438.84</div>
+                </li>
+                <li>
+                    <div class="img-box">
+                        <a href="#" title="RIMOWA 日默瓦 Salsa Air 系列 30寸/91L 时尚轻便行李箱/旅行箱/拉杆箱 多色可选">
+                            <img src="images/commodity-details/fa086d7f00e965ed0447e48111c084795bec6fe3.jpg"
+                                alt="RIMOWA 日默瓦 Salsa Air 系列 30寸/91L 时尚轻便行李箱/旅行箱/拉杆箱 多色可选"></a></div>
+                    <div class="cont-tit-box">
+                        <a href="#" title="RIMOWA 日默瓦 Salsa Air 系列 30寸/91L 时尚轻便行李箱/旅行箱/拉杆箱 多色可选">RIMOWA 日默瓦
+                            Salsa Air 系列
+                            30寸/91L时尚轻便行李箱/旅行箱/拉杆箱 多色可选</a>
+                    </div>
+                    <div class="price-box">￥4,899.00</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="pt-detail xj-goodsDetail">
+        <div class="tab J-tab">
+            <ul class="trigger-list">
+                <li class="trigger act" data-url="true">
+                    <h2>商品详情</h2>
+                </li>
+                <li class="trigger">
+                    <h2>商品参数</h2>
+                </li>
+            </ul>
+            <div class="panel-list">
+                <!-- 商品详情 -->
+                <div class="d-line">
+                    <img src="images/commodity-details/5467493a7028ce1739f3f124cfa3201b64bc3e49.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="stern">
+            <div class="attention">
+                <a href="#">
+                    <i class="ico"></i>
+                    <span class="txt">关注</span>
+                </a>
+                <a href="#">
+                    <i class="ico"></i>
+                    <span class="txt">购物车</span>
+                </a>
+            </div>
+            <div class="shopping-trolley">加入购物车</div>
+            <div class="Buy-It-Now">立即购买</div>
+        </div>
+    </footer>
+</body>
+<script src="js/base.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/commodity-details.js"></script>
+
+</html>

@@ -1,0 +1,383 @@
+html,body{
+    width: 100%;
+    height: auto;
+}
+.page-container {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+    //header 样式 ==开始
+    header {
+        position: relative;
+        width: 100%;
+        height: 0.76rem;
+
+        .a-bar {
+            width: 100%;
+            height: 0.76rem;
+            padding: 0.14rem 0;
+
+            img {
+                width: 0.44rem;
+                height: 0.44rem;
+            }
+
+            .a-back {
+                display: inline-block;
+                width: 0.44rem;
+                height: 0.44rem;
+                position: absolute;
+                top: 0.14rem;
+                left: 0.2rem;
+                margin: 0;
+                text-align: center;
+                // background: url(../images/article/arr_left_2x_160705.png) no-repeat;
+                // background-size: 0.44rem 0.44rem;
+            }
+
+            .a-name {
+                color: #28282e;
+                font-size: 0.32rem;
+                padding: 0 0.9rem;
+                margin: 0;
+                text-align: center;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+
+            .a-right {
+                text-decoration: none;
+                height: 0.5rem;
+                line-height: 0.5rem;
+
+                .a-home {
+                    position: absolute;
+                    top: 0.14rem;
+                    right: 0.2rem;
+                    width: 0.44rem;
+                    height: 0.44rem;
+                    // background: url(../images/article/home_btn_160705.png) no-repeat;
+                    // background-size: 0.44rem 0.44rem;
+                    text-decoration: none;
+                    color: #000;
+
+                }
+            }
+        }
+    }
+
+    //header 样式 ==结束
+    // ====头部图片样式===开始
+    .top-img {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    // ====头部图片样式===结束
+
+     //=====nav 样式 ==开始
+    nav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 7.5rem;
+        height: 0.8rem;
+        background: #fff;
+        font-size: 0.24rem;
+        display: none;
+        z-index: 5;
+        .open {
+            width: 100%;
+            height: 0.8rem;
+            border-bottom: 0.01rem solid #e3e3e3;
+        }
+
+        ul li {
+            width: 25%;
+            height: 0.8rem;
+            padding: 0.14rem 0;
+            float: left;
+
+            span {
+                display: inline-block;
+                color: #191919;
+                text-align: center;
+                width: 100%;
+                height: 0.5rem;
+                line-height: 0.5rem;
+            }
+        }
+
+        .active {
+            span {
+                display: inline-block;
+                text-align: center;
+                line-height: 0.5rem;
+                width: 90%;
+                height: 0.5rem;
+                border-radius: 0.6rem;
+                margin: 0 0.05rem;
+                // border: 0.01rem solid #000;
+                color: #fff;
+                background: #666;
+            }
+        }
+    }
+
+    //=====nav 样式 ==结束
+    // ====主题内容样式===开始
+    .inner-wrap {
+        .xj-content-product-wrap {
+            margin-top: 0.3rem;
+
+            .content-product {
+                width: 100%;
+
+                .tit-block {
+                    padding-left: 0.2rem;
+                    margin: 0 0 0.23rem 0.15rem;
+                    height: 0.35rem;
+                    font-size: 0.32rem;
+                    border-left: 0.1rem solid #ff7a01;
+                }
+
+                .content-block {
+                    display: flex;
+
+                    // justify-content: space-around;
+                    ul li {
+                        width: 47%;
+                        height: 5.776rem;
+                        float: left;
+                        padding: 2%;
+                        margin: 0 0 2% 2%;
+
+                        .content-inner {
+                            width: 3.22rem;
+                            height: 5.80rem;
+
+                            .img-box {
+                                width: 3.22rem;
+                                height: 3.22rem;
+                                position: relative;
+
+                                img {
+                                    width: 3.22rem;
+                                    height: 3.22rem;
+                                }
+
+                                .xj-store-num {
+                                    position: absolute;
+                                    left: 0;
+                                    bottom: 0;
+                                    width: 90%;
+                                    padding: 0 5%;
+                                    color: #fff;
+                                    font-size: .22rem;
+                                    height: .3rem;
+                                    line-height: .3rem;
+                                    text-align: center;
+                                    background: rgba(0, 0, 0, .7);
+                                }
+                            }
+
+                            .tit-box {
+                                width: 3.22rem;
+                                height: 0.64rem;
+                                font-size: 0.24rem;
+                                width: 100%;
+                                overflow: hidden;
+                                margin-top: 0.03rem;
+
+                                a {
+                                    color: #787878;
+                                }
+
+                            }
+
+                            .price-box {
+                                width: 100%;
+                                height: 1.156rem;
+
+                                .current-price {
+                                    width: 100%;
+                                    height: 0.7rem;
+                                    font-size: 0.24rem;
+                                    vertical-align: bottom;
+                                    color: #ed5831;
+                                    display: table-cell;
+                                }
+
+                                .old-price {
+                                    width: 100%;
+                                    height: 0.32rem;
+                                    color: #999;
+                                    font-size: 0.24rem;
+                                    margin-bottom: 0.1rem;
+                                    text-decoration: line-through;
+                                }
+                            }
+
+                            $orange:#ed5831;
+
+                            .xiji-active-tag {
+                                width: 100%;
+                                height: 0.4rem;
+                                font-size: 0;
+
+                                span {
+                                    height: 0.38rem;
+                                    padding: 0 0.04rem;
+                                    margin-right: 0.04rem;
+                                    line-height: 0.38rem;
+                                    text-align: center;
+                                    color: #fff;
+                                    font-size: 0.18rem;
+                                    background: $orange;
+                                    border-radius: 0.05rem;
+                                    border: 0.02rem solid $orange;
+                                }
+
+                                .not-self {
+                                    background: #fff;
+                                    color: #9d9d9d;
+                                    border-radius: 0.05rem;
+                                    border: 0.02rem solid #999;
+                                }
+
+                                .self {
+                                    color: $orange;
+                                    border: 0.02rem solid $orange;
+                                    border-radius: 0.05rem;
+                                    background: #fff;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    //=====主题内容样式===结束
+   
+    //=====侧面购物车 ==开始
+    .cart-btn-link {
+        position: fixed;
+        right: 0.2rem;
+        bottom: 2rem;
+        width: 0.8rem;
+        height: 0.8rem;
+
+        .cart-btn {
+            img {
+                width: 0.8rem;
+                height: 0.8rem;
+            }
+
+            // background: url(../../images/article/topic_cart_btn.png) no-repeat;
+            // background-size: 0.8rem 0.8rem;
+        }
+    }
+
+    //=====侧面购物车 ==结束
+    //=====返回顶部 ==开始 
+    .top-btn-link {
+        position: fixed;
+        right: 0.2rem;
+        bottom: 1rem;
+        width: 0.8rem;
+        height: 0.8rem;
+        opacity: 1;
+        z-index: 6;
+        // display: none;
+
+        // .top-btn {
+            display: none;
+            img {
+                width: 0.8rem;
+                height: 0.8rem;
+            }
+        // }
+
+    }
+
+    //=====返回顶部 ==结束 
+    //=====footer 样式 ==开始
+    footer {
+        width: 100%;
+        height: 2.78rem;
+
+        .home-to-top {
+            text-align: center;
+            color: #ccc;
+            font-size: 0.24rem;
+            border-bottom: 0.02rem solid #eee;
+
+
+            .footerlogin {
+                height: 0.96rem;
+                line-height: 0.96rem;
+                // display: none;
+            }
+
+            a {
+                display: inline-block;
+                width: auto;
+                color: #999;
+                font-size: 0.24rem;
+                padding: 0 0.2rem;
+                vertical-align: middle;
+            }
+
+            .footerlogout {
+                display: none;
+                height: 0.96rem;
+                line-height: 0.96rem;
+
+                span {
+                    a {
+                        display: inline-block;
+                        width: auto;
+                        padding: 0 0.2rem;
+                        color: #ec8141;
+                    }
+
+                }
+            }
+        }
+
+        .footer {
+            // height: 1.46rem;
+            font-size: 0.2rem;
+            background-color: #fff !important;
+
+            p {
+                display: block;
+                margin-top: 0.34rem;
+                // height: 0.86rem!important;
+                height: 1.46rem;
+                padding: 0 0.2rem 0.6rem 0.2rem;
+                text-align: center;
+                line-height: 2;
+
+                span {
+                    color: #999;
+                    // line-height: 1.2;
+
+                }
+            }
+        }
+    }
+
+    //=====footer 样式 ==结束
+
+}

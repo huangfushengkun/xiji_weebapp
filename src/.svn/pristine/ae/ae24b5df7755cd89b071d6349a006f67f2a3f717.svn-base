@@ -1,0 +1,516 @@
+.clearfix ::after {
+    content: '\0020';
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+.full-screen {
+    overflow-x: hidden;
+
+    //    header 样式开始
+    header {
+        width: 100%;
+        height: 0.76rem;
+        position: relative;
+        overflow-x: hidden;
+
+        .a-bar {
+            width: 100%;
+            height: 0.76rem;
+            padding: 0.14rem 0;
+            float: left;
+
+            img {
+                width: 0.44rem;
+                height: 0.44rem;
+            }
+
+            .a-back {
+                display: inline-block;
+                width: 0.44rem;
+                height: 0.44rem;
+                position: absolute;
+                top: 0.14rem;
+                left: 0.2rem;
+                margin: 0;
+                text-align: center;
+                background: url(../images/member/arr_left_2x_160705.png) no-repeat;
+                background-size: 0.44rem 0.44rem;
+            }
+
+            .a-name {
+                color: #28282e;
+                font-size: 0.32rem;
+                padding: 0 0.9rem;
+                margin: 0;
+                text-align: center;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+
+            .a-right {
+                text-decoration: none;
+                height: 0.5rem;
+                line-height: 0.5rem;
+
+                .a-home {
+                    position: absolute;
+                    top: 0.14rem;
+                    right: 0.4rem;
+                    width: 0.44rem;
+                    height: 0.44rem;
+                    margin-right: 0.4rem;
+                    background: url(../images/member/home_btn_2x_160705.png) no-repeat;
+                    background-size: 0.44rem 0.44rem;
+                    text-decoration: none;
+                    color: #000;
+
+                }
+            }
+
+            .cart-box {
+                position: absolute;
+                top: 0.14rem;
+                right: 0.2rem;
+                width: 0.44rem;
+                height: 0.44rem;
+                display: inline-block;
+
+            }
+        }
+    }
+
+    //    header 样式结束
+    //    个人信息 样式开始
+    .xj-mem-top {
+        overflow-x: hidden;
+        position: relative;
+        padding: 0.2rem 5% 0.4rem;
+        background: #ff792b;
+        background: linear-gradient(to right, #ff792b 0%, #ff4d4d 100%);
+
+        .mem-bg01 {
+            width: 100%;
+            height: 1.28rem;
+
+            .xj-mem-pic {
+                width: 1.28rem;
+                height: 1.28rem;
+                border-radius: 100%;
+
+                img {
+                    width: 1.28rem;
+                    height: 1.28rem;
+                    border-radius: 100%;
+                }
+            }
+
+            .xj-mem-name {
+                display: inline-block;
+                margin-left: 0.2rem;
+                width: 46%;
+
+                span {
+                    position: absolute;
+                    left: 2rem;
+                    top: 0.3rem;
+                    color: #fff;
+                    font-size: 0.3rem;
+                    font-weight: bold;
+                }
+
+                div {
+                    width: 1.8rem;
+                    
+                    position: absolute;
+                    left: 2rem;
+                    top: 0.2rem;
+
+                    a {
+                        display: inline-block;
+                        text-align: center;
+                        line-height: 0.48rem;
+                        height: 0.48rem;
+                        padding: 0 0.1rem;
+                        color: #fff;
+                        font-size: 0.24rem;
+                        margin-top: 0.1rem;
+                        border: 0.02rem solid #fff;
+                        border-radius: 0.08rem;
+                    }
+                }
+            }
+
+            .xj-mem-sign {
+                a {
+                    position: absolute;
+                    right: 0.6rem;
+                    top: 0.4rem;
+                    display: inline-block;
+                    color: #ed5831;
+                    font-size: 0.3rem;
+                    height: 0.8rem;
+                    width: 1.6rem;
+                    padding: 0 0.2rem;
+                    box-sizing: border-box;
+                    border-radius: 0.4rem;
+                    background: #fff8d7;
+                    text-align: center;
+                    line-height: 0.8rem;
+                }
+            }
+
+        }
+
+        .function-lv01 {
+            margin-top: 0.4rem;
+            height: 0.72rem;
+
+            li {
+                float: left;
+                font-size: 0.24rem;
+                color: #fff;
+                width: 33.3%;
+                height: 0.72rem;
+                text-align: center;
+
+                a {
+                    display: block;
+                    color: #fff;
+                    outline: none;
+                    filter: none;
+                    -wiebkit-tap-highlinght-color: rgba(0, 0, 0, 0) !important;
+
+                    span {
+                        display: block;
+                        font-size: 0.3rem;
+                        font-weight: bold;
+                        width: 100%;
+                        height: 0.32rem;
+                        margin-bottom: 0.2rem;
+                    }
+                }
+            }
+
+        }
+    }
+
+    //    个人中心样式结束
+    // 中间内容 样式开始
+    .xj-mem-info {
+        background: #f1f1f1;
+        padding: 0.2rem 0.14rem 0.02rem;
+
+        // 我的订单 样式开始
+        .function-box {
+            padding-bottom: 0.2rem;
+            margin-bottom: 0.2rem;
+            background-color: #fff;
+            border-radius: 0.1rem;
+
+            .tit-box {
+                position: relative;
+                color: #333;
+                height: 0.96rem;
+                font-size: 0.3rem;
+                font-weight: bold;
+                line-height: 0.96rem;
+                padding: 0 0.2rem;
+
+                a {
+                    float: right;
+                    width: 20%;
+                    height: 0.96rem;
+                    color: #999;
+                    font-size: 0.24rem;
+                    font-weight: normal;
+                    padding-right: 0.3rem;
+                    background: url(../images/member/arr_right01_2x.png) center right no-repeat;
+                    background-size: 0.24rem 0.24rem;
+                    outline: none;
+                    filter: none;
+                    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+                }
+            }
+
+            .my-state {
+                width: 100%;
+                height: 1.68rem;
+
+                li {
+                    float: left;
+                    width: 20%;
+
+                    a {
+                        display: block;
+                        padding: 0.3rem 0 0.2rem;
+                        text-align: center;
+                        color: #333;
+                        font-size: 0.24rem;
+
+                        span {
+                            display: inline-block;
+                            width: 0.72rem;
+                            height: 0.72rem;
+                            margin: 0 0.36rem 0.1rem;
+                            margin-top: 0;
+                            text-align: center;
+                            position: relative;
+                        }
+                    }
+                }
+
+                .nopayed span {
+                    background: url(../images/member/iconImg01_20181102.png) no-repeat;
+                    background-position: 0 0;
+                    background-size: 3.6rem 0.72rem;
+                }
+
+                .noshiped span {
+                    background: url(../images/member/iconImg01_20181102.png) no-repeat;
+                    background-position: -0.72rem 0;
+                    background-size: 3.6rem 0.72rem;
+                }
+
+                .shiped span {
+                    background: url(../images/member/iconImg01_20181102.png) no-repeat;
+                    background-position: -1.44rem 0;
+                    background-size: 3.6rem 0.72rem;
+                }
+
+                .uncomment span {
+                    background: url(../images/member/iconImg01_20181102.png) no-repeat;
+                    background-position: -2.16rem 0;
+                    background-size: 3.6rem 0.72rem;
+                }
+
+                .aftersales span {
+                    background: url(../images/member/iconImg01_20181102.png) no-repeat;
+                    background-position: -2.88rem 0;
+                    background-size: 3.6rem 0.72rem;
+                }
+            }
+
+        }
+
+        // 我的订单 样式结束
+        // 我的服务 样式开始
+        .mem-info-list {
+            ul {
+                height: 3.32rem;
+
+                li {
+                    width: 25%;
+                    float: left;
+                    margin-bottom: 0.3rem;
+
+                    a {
+                        display: block;
+                        text-align: center;
+                        color: #333;
+                        font-size: 0.24rem;
+
+                        span {
+                            display: inline-block;
+                            width: 0.72rem;
+                            height: 0.72rem;
+                            margin: 0 0.54rem 0.1rem;
+                            margin-top: 0;
+                            text-align: center;
+                            position: relative;
+                        }
+                    }
+
+                    .teambuy span {
+                        background: url(../images/member/iconImg10.png) no-repeat;
+                        background-position: 0 0;
+                        background-size: 4.32rem 0.72rem;
+                    }
+
+                    .receiver span {
+                        background: url(../images/member/iconImg10.png) no-repeat;
+                        background-position: -0.72rem 0;
+                        background-size: 4.32rem 0.72rem;
+                    }
+
+                    .help-feedback span {
+                        background: url(../images/member/iconImg10.png) no-repeat;
+                        background-position: -1.44rem 0;
+                        background-size: 4.32rem 0.72rem;
+                    }
+
+                    .invite span {
+                        background: url(../images/member/iconImg10.png) no-repeat;
+                        background-position: -2.16rem 0;
+                        background-size: 4.32rem 0.72rem;
+                    }
+
+                    .purchase span {
+                        background: url(../images/member/iconImg10.png) no-repeat;
+                        background-position: -2.88rem 0;
+                        background-size: 4.32rem 0.72rem;
+                    }
+
+                    .license span {
+                        background: url(../images/member/iconImg10.png) no-repeat;
+                        background-position: -3.6rem 0;
+                        background-size: 4.32rem 0.72rem;
+                    }
+                }
+            }
+        }
+
+        // 我的服务 样式结束
+        // 我的福利 样式开始
+        .mem-welfare-list {
+            ul {
+                height: 2.76rem;
+
+                li {
+                    float: left;
+                    width: 47.5%;
+                    margin-right: 2.5%;
+                    margin-bottom: 0.2rem;
+                    border: 0.02rem solid #eee;
+                    border-radius: 0.1rem;
+                    box-sizing: border-box;
+
+                    a {
+                        display: block;
+                        padding: 0.2rem;
+
+                        .img-box {
+                            float: left;
+                            width: 0.72rem;
+                            height: 0.72rem;
+                        }
+
+                        .liInner {
+                            padding-left: 0.8rem;
+                            box-sizing: border-box;
+                            color: #333;
+                            font-style: 0.24rem;
+                            line-height: 1.2;
+
+                            .tit {
+                                height: 0.34rem;
+                                color: #f5a623;
+                                font-size: 0.3rem;
+                                font-weight: bold;
+                                margin-bottom: 0.1rem;
+                            }
+
+                            .txt {
+                                font-size: 0.24rem;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                            }
+                        }
+                    }
+
+                }
+
+                .coupon {
+                    .img-box {
+                        background: url(../images/member/iconImg11.png) no-repeat;
+                        background-position: 0 0;
+                        background-size: 2.88rem 0.72rem;
+                    }
+                }
+
+                .integral-exchange {
+                    .img-box {
+                        background: url(../images/member/iconImg11.png) no-repeat;
+                        background-position: -0.72rem 0;
+                        background-size: 2.88rem 0.72rem;
+                    }
+                }
+
+                .integral-task {
+                    .img-box {
+                        background: url(../images/member/iconImg11.png) no-repeat;
+                        background-position: -1.44rem 0;
+                        background-size: 2.88rem 0.72rem;
+                    }
+                }
+
+                .xj-welfare {
+                    .img-box {
+                        background: url(../images/member/iconImg11.png) no-repeat;
+                        background-position: -2.16rem 0;
+                        background-size: 2.88rem 0.72rem;
+                    }
+                }
+            }
+        }
+
+        // 我的福利 样式结束
+    }
+
+    // 中间内容 样式结束
+    // 尾部 样式开始
+    footer {
+        .home-to-top {
+            text-align: center;
+            color: #ccc;
+            font-size: 0.24rem;
+            border-bottom: 0.02rem solid #eee;
+
+
+            .footerlogin {
+                height: 0.96rem;
+                line-height: 0.96rem;
+
+            }
+
+            a {
+                display: inline-block;
+                width: auto;
+                color: #999;
+                font-size: 0.24rem;
+                padding: 0 0.2rem;
+                vertical-align: middle;
+            }
+
+            .footerlogout {
+                display: none;
+                span {
+                    a{
+                        display: inline-block;
+                    width: 20%;
+                    color: #ec8141;
+                    }
+                    
+                }
+            }
+        }
+        .footer{
+            // height: 1.46rem;
+            font-size: 0.2rem;
+            background-color: #fff!important;
+            p{
+                display: block;
+                margin-top: 0.34rem;
+                // height: 0.86rem!important;
+                height: 1.46rem;
+                padding: 0 0.2rem 0.6rem 0.2rem;
+                text-align: center;
+                line-height: 2;
+                span{
+                    color: #999;
+                    // line-height: 1.2;
+                    
+                }
+            }
+        }
+    }
+
+
+// 尾部 样式结束
+
+}

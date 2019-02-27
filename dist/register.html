@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <title>注册</title>
+</head>
+
+<body>
+    <header>
+        <div class="box">
+            <a href="#" class="a-back">返回</a>
+            <div class="a-tit">请输入您的手机号</div>
+        </div>
+        <div class="box-tit">
+            <span class="tel-icon">+86</span>
+            <input type="text" placeholder="请输入手机号" class="text a-account required" pattern="^1[3456789]\d{9}$"
+                data-caution="手机号不能为空">
+            <a href="#" class="flag-icon">
+                <img src="images/register/071870bd13c6a9925cf53c2031ca3e8caf5af0b9.png" alt="">
+                <i class="arr-icon"></i>
+            </a>
+        </div>
+        <p class="empty"></p>
+        <div class="box-tit">
+            <input type="password" placeholder="请输入密码" class="text a-account required" pattern="^1[3456789]\d{9}$"
+                data-caution="密码不能为空">
+        </div>
+        <p class="empty1"></p>
+        <div class="box-c">
+            <input type="checkbox" checked="checked" class="license">同意
+            <a href="#" class="license lnk">《西集注册协议和隐私政策》</a>
+        </div>
+        <div class="box-d">下一步</div>
+    </header>
+</body>
+<script src="js/base.js"></script>
+<script src="js/register.js"></script>
+
+</html>

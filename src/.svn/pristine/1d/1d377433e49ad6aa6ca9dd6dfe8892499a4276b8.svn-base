@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>添加收货地址</title>
+    <!-- 初始化样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="./css/add_receive.css">
+</head>
+<body>
+    
+</body>
+<!-- zepto 插件 -->
+<script src="./js/zepto.min.js"></script>
+<!-- iscroll 插件 -->
+<script src="js/iscroll.js"></script>
+<!--  模板引擎插件 -->
+<script src="js/ejs.js"></script>
+<!--     外部链接 -->
+<script src="./js/add_receive.js"></script>
+</html>

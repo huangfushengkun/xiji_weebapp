@@ -1,0 +1,503 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+span {
+  display: inline-block;
+}
+
+body,
+html {
+  /* font-size: 50px; */
+}
+
+/* 头部广告 start */
+article {
+  width: 100%;
+  margin: 0 auto;
+  background: #f2f2f2;
+  padding: 0.1rem 0;
+  border-bottom: 0.01rem solid #dcdcdc;
+}
+
+article .article-mian {
+  width: 7.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+article .article-mian .close-btn {
+  width: 0.7rem;
+  text-align: right;
+  line-height: 0.1rem;
+  margin-left: 0.2rem;
+  opacity: 0.9;
+}
+
+article .article-mian .close-btn span {
+  display: inline-block;
+  width: 0.28rem;
+  height: 0.28rem;
+  font-size: 0.28rem;
+  color: #fff;
+  line-height: 0.28rem;
+  background: url(../images/login/app_dl_close20170908.png) no-repeat 0 0;
+  background-size: 0.28rem 0.28rem;
+}
+
+article .article-mian a {
+  display: block;
+  border: 0 none;
+  text-decoration: none;
+}
+
+article .article-mian a .bannerInner {
+  width: 7rem;
+  height: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.7rem;
+}
+
+article .article-mian a .bannerInner .banner-logo {
+  width: 0.7rem;
+  margin-left: 0.2rem;
+  line-height: 0.5rem;
+}
+
+article .article-mian a .bannerInner .banner-logo span {
+  display: inline-block;
+  height: 0.6rem;
+  width: 0.6rem;
+  background: url(../images/login/app_down_icon_2x.jpg) no-repeat 0 0;
+  background-size: 0.6rem 0.6rem;
+  border-radius: 0.05rem;
+  vertical-align: bottom;
+}
+
+article .article-mian a .bannerInner .banner-txt {
+  width: 5rem;
+  opacity: 0.8;
+  font-size: 0.2rem;
+  color: #000;
+  line-height: 0.3rem;
+  padding-top: 0.05rem;
+}
+
+article .article-mian a .bannerInner .banner-btn {
+  width: 1.4rem;
+  line-height: 0.5rem;
+}
+
+article .article-mian a .bannerInner .banner-btn span {
+  display: inline-block;
+  width: 1.3rem;
+  height: 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.24rem;
+  color: #fff;
+  background-color: #ed5831;
+  border-radius: 0.1rem;
+}
+
+/* 头部广告 end */
+/* 登录 start */
+header {
+  width: 100%;
+  margin: 0 auto;
+  height: 0.76rem;
+  background: #fff;
+  border-bottom: 0.02rem solid #000;
+}
+
+header .header-main {
+  padding: 0.14rem 0 0.12rem;
+  border-bottom: 0.2rem solid #e8e8e8;
+}
+
+header .header-main .a-bar {
+  width: 7.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+header .header-main .a-bar .a-back,
+header .header-main .a-bar .a-right {
+  width: 0.44rem;
+  line-height: 0.44rem;
+}
+
+header .header-main .a-bar .a-back a,
+header .header-main .a-bar .a-right a {
+  display: block;
+}
+
+header .header-main .a-bar .a-back a img,
+header .header-main .a-bar .a-right a img {
+  width: 0.44rem;
+  height: 0.44rem;
+  opacity: 0.9;
+  vertical-align: top;
+}
+
+header .header-main .a-bar .a-name {
+  width: 5.7rem;
+  line-height: 0.44rem;
+  text-align: center;
+  line-height: 0.48rem;
+}
+
+header .header-main .a-bar .a-name span {
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: 0.02rem;
+  font-size: 0.3rem;
+}
+
+/* 登录 end */
+/* 登录流程 start */
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main .main-cont {
+  width: 7.5rem;
+}
+
+main .main-cont .xj-login-list {
+  width: 7.5rem;
+  background: url(../images/login/passport_bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+main .main-cont .xj-login-list .login-tabs {
+  height: 2.32rem;
+  width: 7.5rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+main .main-cont .xj-login-list .login-tabs .tab-link {
+  width: 50%;
+  height: 0.8rem;
+  line-height: 0.65rem;
+  font-size: 0.36rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+main .main-cont .xj-login-list .login-tabs .tab-link span {
+  display: inline-block;
+  height: 0.48rem;
+  color: #fff;
+  font-size: 0.26rem;
+}
+
+main .main-cont .xj-login-list .login-tabs .tab-link span :hover {
+  font-size: 0.3rem;
+}
+
+main .main-cont .xj-login-list .login-tabs .tab-link .init {
+  font-size: 0.3rem;
+}
+
+main .main-cont .xj-login-list .login-tabs .tab-link .active {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 0.2rem solid transparent;
+  border-bottom: 0.2rem solid #fff;
+  color: #fff;
+  position: absolute;
+  bottom: -0.02rem;
+  left: 50%;
+  border-radius: 5%;
+  margin-left: -5%;
+}
+
+main .main-cont .xiji-tab {
+  width: 7.5rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin {
+  font-size: 0;
+  width: 6.1rem;
+  margin: 0 auto;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new {
+  margin: 0 auto;
+  width: 6.1rem;
+  height: 3.2rem;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .inputStyle {
+  margin-top: 0.4rem;
+  border-bottom: 0.02rem solid #101010;
+  position: relative;
+  font-size: 0;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .inputStyle label {
+  display: block;
+  color: #000;
+  font-size: 0.44rem;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .inputStyle input {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 0.05rem;
+  height: 0.72rem;
+  line-height: normal;
+  font-size: 0.26rem;
+  border: 0 none;
+  outline: none;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .tel .tel-icon {
+  position: absolute;
+  display: block;
+  font-size: 0.24rem;
+  bottom: -0.08rem;
+  left: 0.02rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  color: #666;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .tel input {
+  width: 90%;
+  margin-left: 10%;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .tel span.vcode-btn {
+  position: absolute;
+  bottom: 0.12rem;
+  right: 0.7rem;
+  min-width: 1rem;
+  text-align: center;
+  color: #ed5831;
+  font-size: 0.24rem;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  padding: 0 0.1rem;
+  border-radius: 0.26rem;
+  border: 0.02rem solid #ed5831;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .tel span.close-btn {
+  display: block;
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: url(../images/login/passport_close_2x.png) center center no-repeat;
+  background-size: cover;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .tel .send1 {
+  height: 0.52rem;
+  text-decoration: none;
+  line-height: 0.52rem;
+  width: 1.6rem;
+  display: block;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .tel .send1 :hover {
+  text-decoration: none;
+  background: #ed5831;
+  color: #e8e8e8;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .tel .send0 {
+  height: 0.52rem;
+  text-decoration: none;
+  line-height: 0.52rem;
+  width: 1.6rem;
+  background: #ed5831;
+  font-family: "宋体";
+  color: #fff;
+  display: block;
+  border-radius: 0.26rem;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .tel .send0 :hover {
+  background: #e8e8e8;
+  color: #ed5831;
+  font-size: 0.24rem;
+  text-decoration: none;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .xj-sigin-new .tel span.error {
+  height: 0.52rem;
+  line-height: 0.52rem;
+  padding: 0.04rem;
+  width: 2rem;
+  color: red;
+  padding-left: 0.4rem;
+  display: block;
+  float: left;
+  margin-left: 0.2rem;
+  font-size: 0.24rem;
+  background: url(../images/login/error.png) no-repeat left center;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .c-g-c {
+  width: 6.1rem;
+  margin: 0 auto;
+  margin-bottom: 0.1rem;
+  height: 0.56rem;
+  line-height: 0.56rem;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .c-g-c label {
+  color: #000;
+  font-size: 0.25rem;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .c-g-c label input {
+  vertical-align: middle;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .c-g-c .f-l p {
+  color: #ed5831;
+  font-size: 0.24rem;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .btn-bar {
+  width: 6.1rem;
+  margin: .25rem 0;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .btn-bar button {
+  display: inline-block;
+  background-color: #ed5831 !important;
+  height: 1rem;
+  width: 100%;
+  line-height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.3rem;
+  color: #fff;
+  border: 0 none;
+  outline: none;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .signup-link {
+  margin: 0 auto;
+  width: 6.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .signup-link a {
+  text-decoration: none;
+  color: #ed5831;
+  font-size: 0.22rem;
+  padding-left: 0.5rem;
+  vertical-align: middle;
+  background: url(../images/login/passport_user_2x.png) no-repeat center left;
+  background-size: 0.4rem 0.4rem;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .signup-link a span {
+  vertical-align: middle;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .signup-link a :nth-child(2) {
+  color: #666;
+  background: none;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .third-login-box {
+  margin: 0 .2rem 0;
+  width: 100%;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .third-login-box .tit {
+  text-align: center;
+  margin-bottom: 0.6rem;
+  border-bottom: 0.02rem solid #918c8a;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .third-login-box .tit span {
+  display: inline-block;
+  color: #666;
+  font-size: .22rem;
+  line-height: .36rem;
+  padding: .2rem 0;
+  background-color: #fff;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .third-login-box .third-login-list {
+  width: 4.5rem;
+  margin: 0 auto;
+  background: #fff;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .third-login-box .third-login-list p {
+  display: flex;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .third-login-box .third-login-list p a {
+  width: 2.24rem;
+  height: 1rem;
+  color: #000;
+  font-size: 0.2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .third-login-box .third-login-list p .microblog span {
+  display: block;
+  width: 0.52rem;
+  height: 0.52rem;
+  background: url(../images/login/third_login_icon_2x.png) -0.5rem 0 no-repeat;
+  background-size: auto .52rem;
+  margin: 0 auto 0.02rem;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .third-login-box .third-login-list p .qq span {
+  display: block;
+  width: 0.52rem;
+  height: 0.52rem;
+  background: url(../images/login/third_login_icon_2x.png) -1.02rem 0 no-repeat;
+  background-size: auto .52rem;
+  margin: 0 auto 0.02rem;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .photo-info {
+  width: 5.7rem;
+  background: none;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .photo-info .photo-tit {
+  border: 0 none;
+  font-size: 0.22rem;
+  color: #666;
+}
+
+main .main-cont .xiji-tab .xj-wap-singin .photo-info .photo-tit a {
+  color: #006db3;
+}
+
+/* 登录流程 end */

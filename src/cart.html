@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>购物车_西集网xiji.com</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <script src="js/zepto.min.js"></script>
+  <script src="js/scrollto.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/base.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <!-- 头部区域-->
+    <header>
+      <div class="a-bar">
+        <a href="#" class="a-back"></a>
+        <div class="a-name">购物车</div>
+        <div class="a-right">
+          <a href="#" class="xj-wap-a-home"></a>
+        </div>
+      </div>
+    </header>
+    <!--安全提示-->
+    <!-- <div class="xiji_safe_tip">
+      <p class="tip_word">购物车中有1件商品已降价，点我去看看</p>
+    </div> -->
+    <!--购物车主体-->
+    <div class="xiji_shopCart">
+      <!-- 仓库列表 循环-->
+      <div class="shop_list" 
+      v-for="(wareHouse,index) in wareHouseArr" 
+      :key="index">
+        <!-- 商品仓库名字 -->
+        <div class="shopCart_list_title" v-if="wareHouse.goodslist.length">
+          <div class="cart_title">
+            <span :class="['cart_logo',{checked :wareHouse.isSelectedAllGoods}]" 
+            @click="singerSelectCang(wareHouse.isSelectedAllGoods,index)"
+            ></span>
+            {{wareHouse.name}}</div>
+          <div class="cart_sale">查看同仓商品</div>
+        </div>
+        <!-- 同一仓库商品列表 遍历 -->
+        <ul class="shopCart_list_con">
+          <li  v-for="(shop,num) in wareHouse.goodslist">
+            <div class="goods-item-content">
+              <div
+              :class="['goods-content-icon',{checked:shop.checked}]"
+              @click="singerShopSelect(shop,num)"></div>
+              <div class="goods-content-img">
+                <img :src="shop.shopImage" alt="">
+              </div>
+              <div class="goods-content-text">
+                <div class="content-text-shop">西集自营</div>
+                <div class="content-text-name">{{shop.shopName}}</div>
+                <div class="content-text-standard">规格：1盒</div>
+                <div class="content-text-Tax">
+                  <span>税费补贴</span></div>
+                <div class="content-text-price">
+                  <span class="price">{{shop.shopPrice * shop.shopNumber | moneyFormat(shop.shopPrice * shop.shopNumber )}}</span>
+                  <div class="shop_deal_left">
+                    <span @click="singerShopPrice(shop, false)">-</span>
+                    <input type="tel" value="shop.shopNumber" v-model="shop.shopNumber"> 
+                    <span @click="singerShopPrice(shop, true)">+</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="goods-item-del">
+              <a href="#" class="fav">移入关注</a>
+              <a href="#" @click="clickTrash(shop)">删除</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--底部通栏-->
+    <div id="tab_bar">
+      <div class="tab-bar-left">
+        <div class="select-all">
+            <a href="javascript:;" 
+            :class="['cart_check_box',{checked :isSelectedAll}]"
+            @click="changeIsSelectedAll(isSelectedAll)"></a>
+            <span>全选</span>
+        </div>
+        <div class="total-price">
+          合计：<span class="price-number">{{totalPrice |  moneyFormat(totalPrice)}}</span>
+        </div>
+      </div>
+      <div class="tab-bar-right">
+        <a href="index.html" class="pay">去结算(<span>{{goodsNum}}</span>)</a>
+      </div>
+    </div>
+    <!--弹出面板-->
+    <div class="panel" v-if="isHideDelPane">
+      <div class="panel_content">
+        <div class="panel_title">确认移除“{{currentDelShop.shopName}}” ？</div>
+        <div class="panel_footer">
+          <button class="cancel" @click="showBox()">取消</button>
+          <button class="submit" @click="delShop()">确认</button>
+        </div>
+      </div>
+    </div>
+    <!-- 空购物车样式 -->
+    <div class="cart_null">
+      
+    </div>
+  </div>
+<script src="./lib/vue.min.js"></script>
+<script src="./lib/vue-resource.min.js"></script>
+<script src="js/cart.js"></script>
+</body>
+
+</html>

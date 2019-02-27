@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>会员中心_西集网xiji.com</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/member-security.css">
+    <script src="./js/base.js"></script>
+</head>
+
+<body>
+    <div class="full-screen">
+        <!-- 头部 开始 -->
+        <header>
+            <div class="a-bar">
+                <a href="javascript:history.back()" class="a-back">
+                    <img src="./images/article/arr_left_2x_160705.png" alt="">
+                </a>
+                <div class="a-name">修改密码</div>
+
+            </div>
+        </header>
+        <!-- 头部 结束 -->
+        <!-- 修改内容 开始 -->
+        <div class="full-padding">
+            <form action="api/member-security.php" class="">
+                <div class="c-g">
+                    <p class="c-l">
+                        <span>*</span>
+                        旧密码&nbsp;:
+                    </p>
+                    <div class="c">
+                        <input type="password" name="old-password" class="text" required="required" autofocus
+                            data-caution="密码不能为空">
+                        <span class="pwd-view"></span>
+                    </div>
+                </div>
+                <div class="c-g">
+                    <p class="c-l">
+                        <span>*</span>
+                        新密码&nbsp;:
+                    </p>
+                    <div class="c">
+                        <input type="password" name="passwd" placeholder="新密码" class="text passwd"  required="required"
+                            data-caution="密码不能为空">
+                        <span class="pwd-view"></span>
+                    </div>
+                    <div class="password-instruction">
+                            由6-20个字母、数字和符号至少两种的组合
+                    </div>
+                </div>
+                <div class="c-g">
+                    <p class="c-l">
+                        <span>*</span>
+                        确认新密码&nbsp;:
+                    </p>
+                    <div class="c">
+                        <input type="password" name="passwd-re" placeholder="再次输入新密码" class="text passwd-re" required="required"
+                            data-caution="密码不能为空">
+                        <span class="pwd-view"></span>
+                    </div>
+                    <div class="password-instruction">
+                            由6-20个字母、数字和符号至少两种的组合
+                    </div>
+                </div>
+                <button type="submit" class="btn">提交</button>
+            </form>
+        </div>
+        <!-- 修改内容 结束 -->
+    </div>
+</body>
+<script src="./js/jquery-1.11.3.js"></script>
+<script src="./js/member-security.js"></script>
+</html>

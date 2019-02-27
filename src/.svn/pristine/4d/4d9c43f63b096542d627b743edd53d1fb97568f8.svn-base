@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>团购广场</title>
+    <!-- 初始化样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="./css/teambuysquare.css">
+</head>
+<body>
+    <div class="wrap">
+         <!-- 团购广场开始 -->
+        <header class="white">
+            <div class="a-bar rte white">
+                <a href="javascript:history.go(-1)" class="a-back ale"></a>
+                <div class="a-name text-center white">团购广场</div>
+                <a href="" class="xj-wap-a-home ale"></a>
+            </div>
+        </header>
+         <!-- 导航栏开始 -->
+        <div class="link_block_box rte">
+            <ul class="swiper-wrapper flex white">
+                <li data-type="group">
+                    <a href="" class="flex auto box8">
+                        <span class="box9">热卖团购</span>
+                    </a>
+                </li>
+                <li data-type="personage">
+                    <a href="" class="flex auto">
+                        <span>美妆个护</span>
+                    </a>
+                </li>
+                <li data-type="health">
+                    <a href="" class="flex auto">
+                        <span>食品保健</span>
+                    </a>
+                </li>
+                <li data-type="daily">
+                    <a href="" class="flex auto">
+                        <span>家居日用</span>
+                    </a>
+                </li>
+                <li data-type="costume">
+                    <a href="" class="flex auto">
+                        <span>箱包服饰</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="shadow_right ale flex">
+            </div>
+        </div>
+        <!-- 窗口导航栏 -->
+        <div class="link_block_box fxd">
+            <ul class="swiper-wrapper flex white">
+                <li data-type="group">
+                    <a href="" class="flex auto box8">
+                        <span class="box9">热卖团购</span>
+                    </a>
+                </li>
+                <li data-type="personage">
+                    <a href="" class="flex auto">
+                        <span>美妆个护</span>
+                    </a>
+                </li>
+                <li data-type="health">
+                    <a href="" class="flex auto">
+                        <span>食品保健</span>
+                    </a>
+                </li>
+                <li data-type="daily">
+                    <a href="" class="flex auto">
+                        <span>家居日用</span>
+                    </a>
+                </li>
+                <li data-type="costume">
+                    <a href="" class="flex auto">
+                        <span>箱包服饰</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="shadow_right ale">
+            </div>
+        </div>
+        <!-- 商品2 -->
+        <div class="other-goods-box-box">
+        </div>
+        <!-- 商品1 -->
+        <div class="recommend-box-box">
+        </div>
+        <!-- 商品1 模板 -->
+        <script type="text/template" id="tpl">
+            <% data.forEach(function(val,index){%>
+                <div class="recommend-box">
+                    <div class="recommend-goods-box white">
+                        <ul class="box-inner">
+                            <li class="goods-img rte">
+                                <a href="">
+                                    <img src="images/image/<%=val.img1%>" alt="">
+                                    <span class="already-part ale">
+                                        <i><%=val.piece%></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="goods-name">
+                                <a href=""><%=val.xinxi%></a>
+                            </li>
+                            <li class="goods-price">
+                                团购价
+                                <span class="xiji-price">￥<%=val.qian%></span>
+                                <span class="market-price">
+                                    (市场价: <i>￥<%=val.shichang%></i> )
+                                </span>
+                            </li>
+                            <li class="group-btn-box clearfix">
+                                <div class="group-condition"><%=val.jiren%>人成团</div>
+                                <div class="group-btn">
+                                    <a href="">
+                                        去开团
+                                        <i></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            <%})%>                  
+        </script>
+        <!-- 商品2 模板 -->
+        <script type="text/template" id="tpt">
+            <div class="other-goods-box">
+                <ul class="flex">
+                    <% data.forEach(function(val,index){%>
+                    <li class="rte  whit">
+                        <div class="img-box">
+                            <img src="images/<%=val.img1%>" alt="">
+                        </div>
+                        <div class="tit-box">
+                            <a href="">
+                                <img src="images/image/<%=val.piece%>" alt="">
+                                <%=val.xinxi%>
+                            </a>
+                        </div>
+                        <div class="price-box">
+                            ￥<%=val.qian%>.00
+                        </div>
+                        <div class="num-tag ale text-center">
+                            <span><%=val.shichang%>人团</span>
+                        </div>
+                        <div class="goods-num ale">已团<%=val.jiren%>件</div>
+                    </li>   
+                    <%})%>                  
+                </ul>
+            </div>
+        </script>
+        <!-- 底部 -->
+        <div class="next-btn">
+            <a href="">
+                点击查看下一个分类
+                <i></i>
+            </a>
+        </div>
+    </div>
+</body>
+<!-- zepto 插件 -->
+<script src="./js/zepto.min.js"></script>
+<!-- iscroll 插件 -->
+<script src="js/iscroll.js"></script>
+<!--  模板引擎插件 -->
+<script src="js/ejs.js"></script>
+<!--     外部链接 -->
+<script src="./js/teambuysquare.js"></script>
+</html>

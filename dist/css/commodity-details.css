@@ -1,0 +1,870 @@
+html{
+    font-size: 100px;
+}
+html,body{
+    background-color: #f5f5f5;
+}
+header{
+    width: 7.5rem;
+    background-color: #fff;
+}
+header .a-bar{
+    width: 7.5rem;
+    height: 0.72rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-between;
+}
+header .a-bar .a-back{
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url(../images/commodity-details/arr_left_2x_160705.png) 0 0 no-repeat;
+    background-size: .44rem .44rem;
+    text-indent: -9999rem;
+    display: block;
+    margin: 0.14rem .3rem 0.14rem 0.14rem;
+}
+header .a-bar .pt-name{
+    font-size: 0.32rem;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+    text-align: center;
+    line-height: 0.72rem;
+    color: #000;
+}
+header .a-bar .xj-wap-a-home{
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url(../images/commodity-details/home_btn_2x_160705.png) 0 0 no-repeat;
+    background-size: .44rem .44rem;
+    text-indent: -9999rem;
+    display: block;
+    margin: 0.14rem 0.14rem 0.14rem .3rem;
+}
+/* 商品图片开始 */
+.swiper-container{
+    width: 7.5rem;
+    background-color: #fff;
+}
+.swiper-container .swiper-wrapper{
+    width: 7.5rem;
+    height: 5.62rem;
+}
+.swiper-container .swiper-wrapper .swiper-slide img{
+    width: 5.62rem;
+    height: 5.62rem;
+    margin-left: 1rem;
+}
+/* 商品图片结束 */
+
+
+/* 商品价格 */
+/* 开始 */
+.xj-fastsale-price-inner{
+    width: 7.5rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: .1rem;
+}
+.xj-fastsale-price-inner .fastsale-pri{
+    width: 6.7rem;
+    height: 1rem;
+    /* background: linear-gradient(to right, #e67300, #f3ba57); */
+    display: flex;
+    justify-content:flex-start;
+    flex-direction:column;
+    margin: 0 auto;
+}
+.xj-fastsale-price-inner .fastsale-pri .defalt-pri-top{
+    width: 2.4rem;
+    height: 0.52rem;
+    display: flex;
+    justify-content:flex-start;
+}
+.xj-fastsale-price-inner .fastsale-pri .defalt-pri-top .price-sign{
+    width: 0.28rem;
+    height: 0.4rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: #ed5831;
+    font-weight: bold;
+    margin-top: .12rem;
+}
+.xj-fastsale-price-inner .fastsale-pri .defalt-pri-top .price-num{
+    font-size: 0.42rem;
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: #ed5831;
+    font-weight: bold;
+}
+.xj-fastsale-price-inner .fastsale-pri .defalt-pri-mk{
+    width: 2.5rem;
+    height: 0.48rem;
+    display: inline-block;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 0.06rem;
+    margin-top: .05rem;
+}
+.xj-fastsale-price-inner .fastsale-pri .defalt-pri-mk label{
+    width: 0.68rem;
+    height: 0.32rem;
+    font-size: 0.22rem;
+    background-color: rgba(0,0,0,.3);
+    text-align: center;
+    line-height: 0.32rem;
+}
+.xj-fastsale-price-inner .fastsale-pri .defalt-pri-mk span{
+    font-size: 0.22rem;
+    color: #666;
+    text-decoration: line-through;
+}
+.xj-fastsale-price-inner .fastsale-pri .defalt-pri-mk .freeship-tag{
+    width: 0.6rem;
+    height: 0.3rem;
+    font-size: 0.22rem;
+    color: #fff;
+    border: 0.01rem solid #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 0.3rem;
+}
+/* 降价通知开始 */
+.xj-fastsale-price-inner .cut-price-btn{
+    font-size: 0.24rem;
+    color: #666;
+    display: flex;
+    flex-direction:column; 
+    position: absolute;
+    top: .16rem;
+    left: 3.4rem;
+    line-height: 5;
+}
+.xj-fastsale-price-inner .cut-price-btn a{
+    display: block;
+    color: #666;
+    font-size: .2rem;
+    background: url(../images/commodity-details/cut_price_icon01.png) top center no-repeat;
+    background-size: .46rem .4rem;
+    margin-left: 2.5rem;
+}
+/* 降价通知结束 */
+/* 倒计时开始 */
+.xj-fastsale-price-inner .fastsale-times{
+    float: right;
+    width: 2.1rem;
+    /* color: #fff; */
+    height: .9rem;
+}
+.xj-fastsale-price-inner .fastsale-times .fastsale-times-item{
+    height: .8rem;
+    padding: .2rem 0 0;
+    text-align: center;
+    border-left: 1px solid rgba(0,0,0,0.3);
+}
+.xj-fastsale-price-inner .fastsale-times .fastsale-times-item .tit{
+    display: block;
+    /* color: #fff; */
+    font-size: .22rem;
+    line-height: 1.2;
+    margin-bottom: .04rem;
+    text-align: center;
+}
+/* 倒计时结束 */
+/* 商品价格结束 */
+
+/* 商品标题开始 */
+.box{
+    width: 7.5rem;
+    background-color: #fff;
+    font-size: 0.3rem;
+    line-height: 1.5;
+    padding: .2rem .2rem;
+}
+.box .box-tit{
+    border: 1px solid #9d9d9d;
+    color: #9d9d9d;
+    text-align: center;
+}
+/* 商品标题结束 */
+/* 选择商品开始 */
+.tableStyle{
+    width: 7.5rem;
+    margin-top: 0.2rem;
+}
+.tableStyle .table_tr{
+    width: 7.5rem;
+    height: 0.8rem;
+    background-color: #fff;
+}
+.tableStyle .table_tr .label{
+    display: table-cell;
+    float: none;
+    width: 1.4rem;
+    color: #191919;
+    font-size: .22rem;
+    text-align: center;
+    min-height: .6rem;
+    margin-right: 0;
+    vertical-align: middle;
+    border-bottom: 1px solid #ececec !important;
+}
+.tableStyle .table_tr .detail{
+    position: relative;
+    display: table-cell;
+    color: #666;
+    font-size: .22rem;
+    height: .38rem;
+    padding: .2rem;
+    vertical-align: middle;
+    border-bottom: 1px solid #ececec !important;
+    background-color: #fff;
+}
+.tableStyle .table_tr .detail i.arrow-icon{
+    position: absolute;
+    top: .2rem;
+    left: 5.6rem;
+    width: .4rem;
+    height: .4rem;
+    background: url(../images/commodity-details/ellipsis_icon_2x.png) center center no-repeat;
+    background-size: .4rem .4rem;
+}
+/* 选择商品结束 */
+
+
+/*  */
+.xj-box-bc{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0);
+    opacity: .6;
+    z-index: 99;
+    display: none;
+    transition-duration: 0.3s;
+}
+.popup_buy_view_div{
+    width: 7.5rem;
+    position: fixed;
+    bottom: -30rem;
+    left: 0;
+    transition-duration: 0.3s;
+    z-index: 9999999;
+}
+.pt-sku .xj-spec-box-inner{
+    background-color: #fff;
+    width: 7.5rem;
+    height: 6.08rem;
+    margin: 0 auto;
+}
+.pt-sku .xj-spec-box-inner .sel-sku{
+    width: 7.5rem;
+    height: 1.6rem;
+    border: 1px solid #fff;
+    position: relative;
+}
+.pt-sku .xj-spec-box-inner .sel-sku .img-block{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: -.4rem .2rem .4rem;
+}
+.pt-sku .xj-spec-box-inner .sel-sku .img-block img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.pt-sku .xj-spec-box-inner .sel-sku .col{
+    width: 1.6rem;
+    height: .4rem;
+    font-size: .3rem;
+    position: absolute;
+    top: .3rem;
+    left: 2rem;
+    color:#ea593a;
+}
+.pt-sku .xj-spec-box-inner .sel-sku .pop-active-tag{
+    width: 4.86rem;
+    height: 0.36rem;
+    font-size: .22rem;
+    position: absolute;
+    top: .8rem;
+    left: 2rem;
+}
+.pt-sku .xj-spec-box-inner .sel-sku .pop-active-tag span{
+    border: 1px solid #ea593a;
+    padding: 0.05rem 0.1rem;
+    text-align: center;
+    color: #ea593a;
+}
+.pt-sku .xj-spec-box-inner .sel-sku .closeBtn{
+    width: 0.3rem;
+    height: 0.3rem;
+    text-indent: -999rem;
+    background: url(../images/commodity-details/close_btn_2x.png) 0 0 no-repeat;
+    background-size: .3rem .3rem;
+    display: block;
+    z-index: 999;
+    position: absolute;
+    top: .1rem;
+    right: .1rem;
+}
+/* *********** */
+.pt-sku .xj-spec-box-inner .sel-sku-box{
+    width: 6.7rem;
+    margin: 0 auto;
+}
+.pt-sku .xj-spec-box-inner .sel-sku-box .xj-limitnum{
+    width: 6.7rem;
+    height: 3.6rem;
+    font-size: 0.22rem;
+}
+.pt-sku .xj-spec-box-inner .sel-sku-box .xj-limitnum .sku-list{
+    height: 2.08rem;
+    margin-top: 0.1rem;
+    border-top: 1px solid #ccc;
+}
+.pt-sku .xj-spec-box-inner .sel-sku-box .xj-limitnum .sku-list .k{
+    margin-top: 0.1rem;
+}
+.pt-sku .xj-spec-box-inner .sel-sku-box .xj-limitnum .sku-list .v .sku{
+    width: 1.2rem;
+    height: 0.54rem;
+    border: 1px solid #aaa;
+    margin: 7px 0 8px 10px;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.pt-sku .xj-spec-box-inner .sel-sku-box .xj-limitnum .sku-list .v .sel{
+    background-color: #ea593a;
+    color: #fff;
+}
+.sel-sku-box .pt-num{
+    width: 6.7rem;
+    height: 1.14rem;
+    display: flex;
+    align-items: center;
+}
+.sel-sku-box .pt-num label{
+    height: 0.54rem;
+    line-height: 0.54rem;
+}
+.sel-sku-box .pt-num .num{
+    height: 0.48rem;
+    border: 1px solid #000;
+    border-radius: .04rem;
+    margin: 0 .2rem;
+    display: flex;
+    align-items: center;
+}
+.sel-sku-box .minus,.plus{
+    width: 0.48rem;
+    height: 0.48rem;
+    text-align: center;
+    line-height: .48rem;
+}
+.sel-sku-box .pt-num .num .num-ipt{
+    width: 0.80rem;
+    height: 0.48rem;
+    text-align: center;
+    border: 1px solid #000;
+    outline: 0;
+}
+
+/* *********** */
+.popup-btn-box{
+    width: 7.5rem;
+    height: 0.8rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.popup-btn-box .popup-btn{
+    display: flex;
+}
+.popup-btn-box .popup-btn a:nth-child(1){
+    width: 3.75rem;
+    height: 0.8rem;
+    color: #fff;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.8rem;
+    background-color: #ffcc00 ;
+}
+.popup-btn-box .popup-btn a:nth-child(2){
+    width: 3.75rem;
+    height: 0.8rem;
+    color: #fff;
+    font-size: .22rem;
+    text-align: center;
+    line-height: 0.8rem;
+    background-color: #ed5830;
+}
+/*  */
+
+
+/* 配送信息开始 */
+.box-it{
+    width: 7.5rem;
+    margin-top: 0.2rem;
+    background-color: #fff;
+}
+.box-it .xj-bxo-tit{
+    width: 7.5rem;
+}
+.box-it .xj-bxo-tit .distribution{
+    width: 7.5rem;
+    height: 1.14rem;
+    font-size: 0.22rem;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.box-it .xj-bxo-tit .distribution span{
+    width: 1.4rem;
+    height: 1.14rem;
+    text-align: center;
+    line-height: 1.14rem;
+}
+.box-it .xj-bxo-tit .distribution .crt{
+    margin-top: 0.2rem;
+    margin-left: .1rem;
+    color: #666;
+}
+/* 配送信息结束 */
+/* 重量信息开始 */
+.box-it .xj-bxo-tit .weight{
+    width: 7.5rem;
+    height: .8rem;
+    font-size: 0.22rem;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.box-it .xj-bxo-tit .weight span{
+    width: 1.4rem;
+    height: .8rem;
+    text-align: center;
+    line-height: .8rem;
+}
+.box-it .xj-bxo-tit .weight .crt{
+    margin-top: 0.2rem;
+    margin-left: .1rem;
+    color: #666;
+}
+/* 重量信息结束 */
+/* 说明信息开始 */
+.box-it .xj-bxo-tit .explain{
+    width: 7.5rem;
+    height: .8rem;
+    font-size: 0.22rem;
+    display: flex;
+    position: relative;
+}
+.box-it .xj-bxo-tit .explain span{
+    width: 1.4rem;
+    height: .8rem;
+    text-align: center;
+    line-height: .8rem;
+}
+.box-it .xj-bxo-tit .explain em{
+    display: inline-block;
+    width: .12rem;
+    height: .12rem;
+    background-color: #ed5831;
+    border-radius: .06rem;
+    margin-right: .03rem;
+    vertical-align: middle;
+    margin-top: 0.33rem;
+}
+.box-it .xj-bxo-tit .explain .crt{
+    margin-top: 0.2rem;
+    margin-left: .1rem;
+    color: #666;
+}
+.box-it .xj-bxo-tit .explain i.crt-icon{
+    position: absolute;
+    top: .2rem;
+    right: .2rem;
+    width: .4rem;
+    height: .4rem;
+    background: url(../images/commodity-details/ellipsis_icon_2x.png) center center no-repeat;
+    background-size: .4rem .4rem;
+}
+/* 说明信息结束 */
+/* 心动理由开始 */
+.product-tags-block{
+    width: 7.5rem;
+    background-color: #fff;
+    margin-top: 0.2rem;
+    overflow: hidden;
+}
+.product-tags-block .tag-title{
+    font-size: 0.3rem;
+    color: #1a1a1a;
+    margin: .2rem 0 .3rem .2rem;
+}
+.product-tags-block .pro-intro{
+    font-size: 0.22rem;
+    color: #666666;
+    line-height: 1.6;
+    padding: 0 .3rem 0 .4rem;
+    margin: 0 .2rem .3rem;
+}
+/* 心动理由结束 */
+/* 销量部分开始 */
+.product-tags-block .top-box{
+    border-top: 1px solid #dfdfdf;
+    padding: .5rem 0 .3rem 0;
+}
+.product-tags-block .top-box .buy-num{
+    float: left;
+    color: #191919;
+    font-size: .22rem;
+    text-align: center;
+    width: 2.5rem;
+    height: 1.02rem;
+    border-right: 1px solid #ccc
+}
+.product-tags-block .top-box .buy-num .icon{
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto 3px;
+    background: url(../images/commodity-details/label_icon01_2x.png) top left no-repeat;
+    background-size: 100% auto;
+    background-position: 0 0;
+}
+.product-tags-block .top-box .buy-num .num{
+    display: block;
+    color: #666666;
+    line-height: 1;
+}
+/* ****** */
+.product-tags-block .top-box .favorite-num{
+    float: left;
+    color: #191919;
+    font-size: .22rem;
+    text-align: center;
+    width: 2.46rem;
+    height: 1.02rem;
+    border-right: 1px solid #ccc
+}
+.product-tags-block .top-box .favorite-num .icon{
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto 3px;
+    background: url(../images/commodity-details/label_icon01_2x.png) top left no-repeat;
+    background-size: 100% auto;
+    background-position: 0 -18px;
+}
+.product-tags-block .top-box .favorite-num .num{
+    display: block;
+    color: #666666;
+    line-height: 1;
+}
+/* ****** */
+.product-tags-block .top-box .browse-num{
+    float: left;
+    color: #191919;
+    font-size: .22rem;
+    text-align: center;
+    width: 2.5rem;
+    height: 1.02rem;
+}
+.product-tags-block .top-box .browse-num .icon{
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto 3px;
+    background: url(../images/commodity-details/label_icon01_2x.png) top left no-repeat;
+    background-size: 100% auto;
+    background-position: 0 -36px;
+}
+.product-tags-block .top-box .browse-num .num{
+    display: block;
+    color: #666666;
+    line-height: 1;
+}
+/* 销量部分结束 */
+/* 商品评价开始 */
+.pt-detail{
+    width: 7.5rem;
+    padding-top: .3rem;
+    margin-top: .2rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.comment-box{
+    padding: 0 0 .3rem;
+}
+.pt-detail .tit{
+    color: #1a1a1a;
+    padding: 0 .2rem;
+    border-bottom: 1px solid #ececec;
+}
+.pt-detail .tit a{
+    display: block;
+    font-size: .3rem;
+    height: .9rem;
+    line-height: .9rem;
+    color: #1a1a1a;
+    background: url(../images/commodity-details/arr_right03_2x.png) center right no-repeat;
+    background-size: .24rem .24rem;
+}
+.pt-detail .tit a span{
+    display: inline-block;
+    color: #999;
+    font-size: .24rem;
+    margin-left: .2rem;
+}
+.pt-detail .comment_list{
+    width: 7.5rem;
+    padding: .3rem .2rem;
+    font-size: .22rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ececec;
+
+}
+.pt-detail .comment_list a{
+    width: 7.1rem;
+    height: 1.12rem;
+}
+.pt-detail .comment_list a .comment-header{
+    width: 7.1rem;
+    height: .6rem;
+    display: flex;
+}
+.pt-detail .comment_list a .comment-header .head-img{
+    width: 0.6rem;
+    height: 0.6rem;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    background: url(../images/commodity-details/user_img_160813.png) center center no-repeat;
+    background-size: cover;
+}
+.pt-detail .comment_list a .comment-header .author{
+    vertical-align: middle;
+    color: #191919;
+    margin-top: 0.1rem;
+    margin-left: .1rem;
+}
+.pt-detail .comment_list a .comment-header .goods-point{
+    display: inline-block;
+    width: 1.6rem;
+    height: .32rem;
+    margin-left: .1rem;
+    margin-bottom: .04rem;
+    position: relative;
+    vertical-align: middle;
+}
+.pt-detail .comment_list a .comment-header .goods-point .point-top{
+    background: url(../images/commodity-details/star_img_light_2x.png) center left no-repeat;
+    background-size: 1.56rem .22rem;
+    display: block;
+    height: .32rem;
+    z-index: 1;
+    margin-top: .1rem;
+}
+.pt-detail .comment_list a .comment-header .reg-country{
+    float: right;
+    color: #999;
+    line-height: .6rem;
+    margin-left: 2.5rem;
+}
+.pt-detail .comment_list a .comment-footer{
+    width: 7.1rem;
+    height: 0.36rem;
+}
+.pt-detail .comment_list a .comment-footer .spec-info{
+    color: #999;
+    margin-top: 0.16rem;
+    font-size: 0.22rem;
+}
+.pt-detail .comment_list .comment-content{
+    width: 7.1rem;
+    height: 1.86rem;
+}
+.pt-detail .comment_list .comment-content a{
+    font-size: 0.24rem;
+    color: #1a1a1a;
+}
+.pt-detail .comment_list .comment-content .xj-slider-item{
+    width: 100%;
+    margin-top: 0.2rem 0;
+}
+.pt-detail .comment_list .comment-content .xj-slider-item li{
+    float: left;
+    width: 17%;
+    margin: 1% 1.5%;
+    overflow: hidden;
+}
+.pt-detail .comment_list .comment-content .xj-slider-item li img{
+    vertical-align: top;
+}
+.pt-detail .btnBlock{
+    /* height: .6rem; */
+    margin-top: .3rem;
+    text-align: center;
+}
+.pt-detail .btnBlock a{
+    display: inline-block;
+    color: #ed5831;
+    height: .6rem;
+    line-height: .6rem;
+    padding: 0 .2rem;
+    border-radius: .06rem;
+    border: 1px solid #ed5831;
+    font-size: 0.22rem;
+}
+/* 商品评价结束 */
+/* 专属推荐开始 */
+.pt-detail{
+    width: 7.5rem;
+    padding-top: .3rem;
+    margin-top: .2rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    margin-top: 0.2rem;
+}
+.pt-detail .titStyle{
+    font-size: .3rem;
+    color: #1a1a1a;
+    line-height: 1.2;
+    margin-bottom: .3rem;
+    padding-left: .1rem;
+}
+.pt-detail .related-goods-list ul{
+    width: 7.3rem;
+    height: 7.08rem;
+    margin: 0 auto;
+}
+.pt-detail .related-goods-list ul li{
+    width: 2.12rem;
+    height: 3.24rem;
+    float: left;
+    margin: 0 2% .3rem;
+    font-size: 0.22rem;
+}
+.pt-detail .related-goods-list ul li .cont-tit-box{
+    font-size: .24rem;
+    height: .64rem;
+    line-height: .32rem;
+    overflow: hidden;
+    margin-top: .1rem;
+    text-align: center;
+    color: #333;
+}
+.pt-detail .related-goods-list ul li .cont-tit-box a{
+    color: #333;
+    text-decoration: none;
+}
+.pt-detail .related-goods-list ul li .price-box{
+    color: #eb5831;
+    text-align: center;
+}
+/* 专属推荐结束 */
+/* 商品详情开始 */
+.pt-detail{
+    padding-top: .3rem;
+    margin-top: .2rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.pt-detail .tab{
+    padding-bottom: .5rem;
+}
+.pt-detail .tab .trigger-list{
+    border-top: 1px solid #28282e;
+    border-bottom: 1px solid #28282e;
+    display: flex;
+}
+.pt-detail .tab .trigger-list .act{
+    color: #fff;
+    background-color: #28282e;
+    border: none;
+    border-left: none;
+}
+.pt-detail .tab .trigger-list .trigger{
+    width: 3.75rem;
+    height: 0.96rem;
+    font-size: .3rem;
+    line-height: 0.96rem;
+    text-align: center;
+}
+.pt-detail .tab .panel-list{
+    margin-top: 0.2rem;
+    width: 7.5rem;
+}
+/* 商品详情结束 */
+/* 立即购买开始 */
+footer{
+    width: 7.5rem;
+    background-color: #fff;
+    border-top: 1px solid #aaa;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer .stern{
+    width: 7.5rem;
+    height: 0.8rem;
+    display: flex;
+}
+footer .stern .attention{
+    width: 2.5rem;
+    height: 0.8rem;
+    font-size: 0.22rem;
+    display: flex;
+    justify-content:space-around;
+    line-height: .2rem;
+}
+footer .stern .attention a{
+    color: #676767
+}
+footer .stern .attention a:nth-child(1) .ico{
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url(../images/commodity-details/xj-wap-fav_bg_2x.png) 0 0 no-repeat;
+    background-size: auto .32rem;
+    display: block;
+    margin-top: 0.1rem;
+    margin-bottom: 0.05rem;
+    margin-left: 0.05rem;
+}
+footer .stern .attention a:nth-child(2) .ico{
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url(../images/commodity-details/xj-wap-cart_bg_2x_180601.png) 0 0 no-repeat;
+    background-size: auto .32rem;
+    display: block;
+    margin-top: 0.1rem;
+    margin-bottom: 0.05rem;
+    margin-left: 0.15rem;
+}
+/* ****** */
+footer .stern .shopping-trolley{
+    width: 2.5rem;
+    height: 0.8rem;
+    background-color: #ffcc00;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    text-align: center;
+}
+/* ****** */
+footer .stern .Buy-It-Now{
+    width: 2.5rem;
+    height: 0.8rem;
+    background-color: #f47518;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    text-align: center;
+}
+/* 立即购买结束 */

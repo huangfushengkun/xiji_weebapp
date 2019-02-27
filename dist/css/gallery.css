@@ -1,0 +1,361 @@
+@charset "UTF-8";
+header {
+  width: 7.5rem;
+  background: #fff;
+  border-bottom: none;
+  height: 38px;
+}
+
+header .a-bar {
+  width: 100%;
+  padding: 6px 0 6px;
+}
+
+header .a-bar .a-back {
+  display: block;
+  width: 0.44rem;
+  height: 0.44rem;
+  text-indent: -999rem;
+  position: absolute;
+  top: 8px;
+  left: 0.2rem;
+  color: #333;
+  text-align: center;
+  line-height: 24px;
+  background: url(../images/arr_left_2x_160705.png) top left no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+  header .a-bar .a-back {
+    background: url(../images/arr_left_2x_160705.png) top left no-repeat;
+    background-size: 22px 22px;
+  }
+}
+
+header .a-bar .a-name {
+  color: #28282e;
+  font-size: 0.32rem;
+  text-align: center;
+  padding: 0 0.9rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+header .a-bar .a-hone {
+  display: block;
+  width: 0.44rem;
+  height: 0.44rem;
+  text-indent: -999rem;
+  position: absolute;
+  top: 0.14rem;
+  right: 0.2rem;
+  text-align: center;
+  line-height: 25px;
+  background: url(../images/home_btn_2x_160705.png) top left no-repeat;
+  background-size: 22px 22px;
+}
+
+/*header结束*/
+/*搜索开始*/
+.search-box {
+  background: #fff;
+  width: 7.5rem;
+  padding: 5px 0;
+}
+
+.search-box .search {
+  position: relative;
+  height: 38px;
+  width: 7.3rem;
+  background: #fafafa;
+  border: 1px solid #e4e4e4;
+  margin: 0 auto;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.search-box .search input {
+  display: block;
+  border: 0;
+  width: 96%;
+  padding: 0 0 0 2%;
+  margin-right: 2%;
+  height: 36px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 0.2rem;
+  background: #fff url(../images/search_icon01_2x_160701.png) no-repeat right 0.16rem;
+  background-size: .44rem .44rem;
+}
+
+.search-box .searchLayer {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  display: none;
+}
+
+.search-box .searchLayer .searchBox {
+  width: 100%;
+  border-bottom: 1px solid #e4e4e4;
+  height: 0.82rem;
+  padding: 0.1rem 0;
+  background: #f5f5f5;
+}
+
+.search-box .searchLayer .search-list, .search-box .searchLayer .search-list ul {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.search-box .searchLayer .search-list ul li {
+  font-size: 0.28rem;
+  margin: 0 0.2rem;
+  border-bottom: 1px solid #e4e4e4;
+  line-height: 1.5;
+}
+
+.search-box .searchLayer .search-list ul li a {
+  display: block;
+  padding: 0.2rem 0;
+  color: #333;
+}
+
+.search-box .searchLayer .searchBox .cancel {
+  background: url(../images/gallery/search_icon02_2x.png) no-repeat center center;
+  background-size: 0.16rem 0.28rem;
+  float: left;
+  width: 10%;
+  height: 0.6rem;
+  text-indent: -9999px;
+}
+
+.search-box .searchLayer .searchBox .key {
+  position: relative;
+  float: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.search-box .searchLayer .searchBox .key input {
+  display: block;
+  border: none;
+  width: 96%;
+  padding: 0.1rem 2%;
+  height: 0.6rem;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  font-size: 0.24rem;
+}
+
+.search-box .searchLayer .searchBox .key .clearout {
+  background: url(../images/gallery/search_icon03_2x.png) no-repeat center center;
+  background-size: 0.3rem 0.3rem;
+  position: absolute;
+  top: 0;
+  right: 0.2rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  text-indent: -9999px;
+  display: none;
+}
+
+.search-box .searchLayer .searchBox button {
+  background: url(../images/gallery/search_icon01_2x.png) no-repeat center center;
+  background-size: 0.3rem 0.3rem;
+  float: left;
+  width: 10%;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  border: none;
+  border-radius: 4px;
+  text-indent: -9999px;
+}
+
+/*搜索结束*/
+/*list开始*/
+.list {
+  background: #fff;
+  border-bottom: 1px solid #e4e4e4;
+  position: fixed;
+  top: 86px;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 42px;
+}
+
+.list ul {
+  margin: 0 15%;
+}
+
+.list ul li {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+
+.list ul li a {
+  display: block;
+  font-size: 0.28rem;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #fff;
+  color: #333;
+}
+
+.list ul li.l-active a {
+  color: #eb5a41;
+  border-bottom: 2px solid #eb5a41;
+  position: relative;
+}
+
+.list ul li.l-active a i {
+  position: absolute;
+  bottom: 0rem;
+  left: 50%;
+  margin-left: -0.1rem;
+  width: 0.2rem;
+  height: 0.1rem;
+  background: url(../images/gallery/arrow-btm-2x.png) no-repeat 0 0;
+  background-size: 0.2rem 0.1rem;
+}
+
+/*list结束*/
+/*product开始*/
+.product {
+  position: fixed;
+  top: 2.56rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.product .gallery-cat {
+  float: left;
+  width: 100px;
+  height: 100%;
+  background: #fff;
+  border-right: 1px solid #e5e5e5;
+}
+
+.product .gallery-cat ul {
+  margin-right: -1px;
+}
+
+.product .gallery-cat ul li {
+  height: 40px;
+  border-left: 3px solid #fff;
+  border-right: 1px solid #e5e5e5;
+}
+
+.product .gallery-cat ul li.ga-active {
+  border-left: 3px solid #000;
+  border-right: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
+}
+
+.product .gallery-cat ul li span {
+  display: block;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  color: #666;
+}
+
+.product .product-list-content {
+  background-color: #f5f5f5;
+  border-left: 1px solid #e5e5e5;
+  width: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100px;
+  z-index: 1;
+  overflow: auto;
+}
+
+.product .product-list-content .filter-entries .banner-box {
+  height: 40px;
+  position: relative;
+}
+
+.product .product-list-content .filter-entries .banner-box .banner {
+  height: 40px;
+  width: 100%;
+  background: 0% 0%/100% #ededed;
+  position: static;
+  top: 0;
+  box-shadow: none;
+}
+
+.product .product-list-content .filter-entries .banner-box .banner-active {
+  position: fixed;
+  top: 128px;
+  box-shadow: #999999 0px 4px 4px 0px;
+}
+
+.product .product-list-content .banner a {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #000;
+  font-size: 0.28rem;
+}
+
+.product .product-list-content .banner a span {
+  padding-left: 0.2rem;
+}
+
+.product .product-list-content .banner a i {
+  background: url(../images/gallery/arrow-right-2x.png) no-repeat right center;
+  background-size: 0.12rem 0.26rem;
+  padding-right: 0.2rem;
+  margin-left: 2.7rem;
+  font-size: 0.24rem;
+  color: #666;
+}
+
+.product .product-list-content .filter-entries .lv3list {
+  padding: 2%;
+}
+
+.product .product-list-content .filter-entries .lv3list ul {
+  background: #fff;
+  padding: 2% 2% 0;
+}
+
+.product .product-list-content .filter-entries .lv3list ul li {
+  width: 33%;
+  line-height: 1.2;
+  float: left;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.product .product-list-content .filter-entries .lv3list ul li a {
+  color: #666;
+}
+
+.product .product-list-content .filter-entries .lv3list ul li a img {
+  width: 100%;
+  display: block;
+}
+
+.product .product-list-content .filter-entries .lv3list ul li a span {
+  height: 2.4em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 0.24rem;
+}

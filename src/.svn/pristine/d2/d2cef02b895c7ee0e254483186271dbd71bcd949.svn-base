@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>购物车_西集网xiji.com</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <script src="js/zepto.min.js"></script>
+  <script src="js/scrollto.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/base.js"></script>
+  <!-- <script src="js/cart.js"></script> -->
+</head>
+
+<body>
+  <div id="app">
+    <!-- 头部区域-->
+    <header>
+      <div class="a-bar">
+        <a href="#" class="a-back"></a>
+        <div class="a-name">购物车</div>
+        <div class="a-right">
+          <a href="#" class="xj-wap-a-home"></a>
+        </div>
+      </div>
+    </header>
+    <!--安全提示-->
+    <!-- <div class="xiji_safe_tip">
+      <p class="tip_word">购物车中有1件商品已降价，点我去看看</p>
+    </div> -->
+    <!--购物车主体-->
+    <div class="xiji_shopCart">
+      <!-- 仓库列表 -->
+      <div class="xiji_shopCk-item">
+        <!-- 商品列表 -->
+        <div class="shop_list">
+          <!-- 商品仓库名字 -->
+          <div class="shopCart_list_title">
+            <div class="cart_title"><span class="cart_logo checked"></span>中国122仓发货</div>
+            <div class="cart_sale">查看同仓商品</div>
+          </div>
+          <!-- 该仓库商品列表 -->
+          <ul class="shopCart_list_con">
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      
+      
+    </div>
+    <!--底部通栏-->
+    <!-- <div id="tab_bar">
+      <div class="tab-bar-left">
+        <a href="javascript:;" class="cart_check_box" :checked="isSelectedAll" @click="changeIsSelectedAll(isSelectedAll)"></a>
+        <span style="font-size: 16px;">全选</span>
+        <div class="select-all">
+          合计：<span class="total-price">{{totalPrice | moneyFormat(totalPrice)}}</span>
+        </div>
+      </div>
+      <div class="tab-bar-right">
+        <a href="index.html" class="pay">去结算</a>
+      </div>
+    </div> -->
+    <!--弹出面板-->
+    <!-- <div class="panel" :class="{'panel_is_show': isHideDelPanel}">
+      <div class="panel_content">
+        <div class="panel_title">您确认删除这个商品吗?</div>
+        <div class="panel_footer">
+          <button class="cancel" @click="isHideDelPanel = true">取消</button>
+          <button class="submit" @click="delShop()">确定</button>
+        </div>
+      </div>
+    </div> -->
+  </div>
+
+</body>
+
+</html>

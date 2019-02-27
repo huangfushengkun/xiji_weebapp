@@ -1,0 +1,683 @@
+       * {
+           margin: 0;
+           padding: 0;
+           list-style: none;
+       }
+
+       span {
+           display: inline-block;
+       }
+
+       body,
+       html {
+           /* width: 7.5rem; */
+           /* height: auto; */
+           background: url(../images/passport/bg.png);
+           background-size: 7.5rem auto;
+       }
+
+       /* 登录 start */
+       header {
+           width: 7.5rem;
+           height: .76rem;
+           background: #fff;
+           border-bottom: .02rem solid #000;
+       }
+
+       .header-main {
+           padding: .14rem 0 .12rem;
+           border-bottom: .2rem solid #e8e8e8;
+       }
+
+       .a-bar {
+           width: 7.5rem;
+           display: -webkit-box;
+           display: -ms-flexbox;
+           display: flex;
+           -ms-flex-pack: distribute;
+               justify-content: space-around;
+       }
+
+       .a-back,
+       .a-right {
+           width: .44rem;
+           line-height: .44rem;
+       }
+
+       .a-right a {
+           display: block;
+       }
+
+       .a-right img {
+           width: .44rem;
+           height: 0.44rem;
+           opacity: .9;
+           vertical-align: top;
+       }
+
+       .a-back a {
+           display: block;
+       }
+
+       .a-back img {
+           width: 0.44rem;
+           opacity: 0.9;
+           vertical-align: top;
+           height: 0.44rem;
+       }
+
+       .a-name {
+           width: 5.7rem;
+           line-height: .44rem;
+           text-align: center;
+           line-height: .48rem;
+       }
+
+       .a-name span {
+           display: inline-block;
+           vertical-align: top;
+           letter-spacing: .02rem;
+           font-size: .3rem;
+       }
+
+       .a-right {}
+
+       /* 登录 end */
+       /* 广告 start */
+       article {
+           width: 7.5rem;
+       }
+
+       .near-photo {
+        width: 7.5rem;
+       }
+
+       .near-photo img {
+           width: 100%;
+           vertical-align: top;
+           height: 5.13rem;
+           border: 0 none;
+       }
+
+       /* 广告 end */
+       /* 优惠卷 start */
+       .tit-block {
+           width: 100%;
+       }
+
+       .tit-block img {
+           width: 100%;
+           border: 0 none;
+           vertical-align: top;
+           height: 6.46rem;
+       }
+
+       /* 优惠卷 end */
+       /* 活动商品 start */
+       .active-shop {
+           width: 100%;
+
+       }
+
+       .active-shop ul {
+           display: -webkit-box;
+           display: -ms-flexbox;
+           display: flex;
+           height: 8.98rem;
+           -ms-flex-wrap: wrap;
+               flex-wrap: wrap;
+           padding: 0;
+           margin: 0;
+           -ms-flex-pack: distribute;
+               justify-content: space-around;
+       }
+
+       .active-shop ul .act-item {
+           width: 50%;
+           height: 2.98rem;
+           margin: 0;
+           padding: 0;
+       }
+
+       .active-shop ul .act-item a {
+           width: 50%;
+           outline: 0 none;
+           height: 2.98rem;
+           border: 0 none;
+           text-decoration: none;
+       }
+
+       .active-shop ul .act-item a img {
+           width: 100%;
+           height: 2.98rem;
+           outline: 0 none;
+           vertical-align: top;
+           border: 0 none;
+       }
+
+       /* 活动商品 end */
+       /* 产品专场 start */
+       main {
+           width: 7.5rem;
+       }
+
+       /* 大牌奢品 start */
+       .xj-content-product-wrap {
+           margin-top: .2rem;
+       }
+
+       .xj-content-product .tit-block {
+           border: none;
+           padding: 0px;
+           margin: 0px 0px 2%;
+           text-indent: -99999px;
+           width: 100%;
+           height: 1.4rem;
+           background: url(../images/passport/815cec72a8133089b601c50efc20faa517b0cd18.png) center center / 100% no-repeat;
+           background-size: cover;
+           font-size: 0px;
+           line-height: 0;
+       }
+
+       .item1 .tit-block {
+           background: url(../images/passport/a0b301ec63c17afafd94a444f93e70030b871fef.png) center center / 100% no-repeat;
+       }
+
+       .item2 .tit-block {
+           background: url(../images/passport/ec1893cdc76c7900aa42df6ec930058f778c2eba.png) center center / 100% no-repeat;
+
+       }
+
+       .item3 .tit-block {
+           background: url(../images/passport/40f87b25e6441bff9b9e798d72b00faea4f253a9.png) center center / 100% no-repeat;
+
+       }
+
+       .item4 .tit-block {
+           background: url(../images/passport/3b46be9ee6af7128b8e7668cd16e2e44eba4d34a.png) center center / 100% no-repeat;
+
+       }
+
+       .item5 .tit-block {
+           background: url(../images/passport/49e56229fc5d77c193f1565f891a51c6420ce409.png) center center / 100% no-repeat;
+
+       }
+
+       .item6 .tit-block {
+           background: url(../images/passport/04aee776658f5abefa1f75283abbdf1657537ed7.png) center center / 100% no-repeat;
+
+       }
+
+       .item7 .tit-block {
+           background: url(../images/passport/7f39e474eedb6dddea2305c7ccf846433cb35dd5.png) center center / 100% no-repeat;
+
+       }
+
+       .xj-content-product .tit-block a {
+           border: 0 none;
+           outline: 0 none;
+       }
+
+       .xj-content-product .tit-block a img {
+           width: 100%;
+           height: 1.4rem;
+           border: 0 none;
+           height: 0 none;
+       }
+
+       .xj-content-product .content-block {
+           width: 100%;
+       }
+
+       .content-block .bigList-block {
+           width: 7.5rem;
+           display: -webkit-box;
+           display: -ms-flexbox;
+           display: flex;
+           -webkit-box-pack: start;
+               -ms-flex-pack: start;
+                   justify-content: flex-start;
+           -ms-flex-wrap: wrap;
+               flex-wrap: wrap;
+       }
+
+       .bigList-block .bigItem-block {
+           margin: 0 0 2% 2%;
+           padding: 2%;
+           width: 43%;
+           background: #fff;
+       }
+
+       .bigList-block .bigItem-block .content-inner {
+           position: relative;
+       }
+
+       .bigList-block .bigItem-block .content-inner .img-box {
+           /* width: 100%; */
+           width: 3.22rem;
+           height: 3.22rem;
+           margin: 0 auto;
+           position: relative;
+           vertical-align: middle;
+           text-align: center;
+           overflow: hidden;
+           background: url(../images/passport/160425_loading.gif) no-repeat 0 0;
+           background-size: cover;
+       }
+
+       .bigList-block .bigItem-block .content-inner .img-box img {
+           width: 3.22rem;
+           height: 3.22rem;
+           margin: 0 auto;
+           border: 0 none;
+       }
+
+       .bigList-block .bigItem-block .content-inner .img-box .soldout-img {
+           background: url(../images/passport/sps_icon_none_ch_wap.png) 0 0 no-repeat;
+           background-size: 100% auto;
+           text-indent: -9999px;
+           position: absolute;
+           width: 50%;
+           height: 50%;
+           left: 25%;
+           top: 25%;
+           display: none;
+       }
+
+       .bigList-block .bigItem-block .content-inner .img-box .xj-store-num {
+           position: absolute;
+           left: 0;
+           bottom: 0;
+           width: 90%;
+           padding: 0 5%;
+           color: #fff;
+           font-size: 11px;
+           height: .3rem;
+           line-height: .3rem;
+           text-align: center;
+           background-color: rgba(0, 0, 0, 0.7);
+           overflow: hidden;
+           white-space: nowrap;
+           text-overflow: ellipsis;
+       }
+
+       .bigList-block .bigItem-block .content-inner .tit-box {
+           color: #333;
+           font-size: .24rem;
+           height: .64rem;
+           margin: .02rem auto 0;
+           line-height: .32rem;
+           overflow: hidden;
+       }
+
+       .content-inner .tit-box a,
+       .content-inner .tit-box a:visited {
+           color: #787878;
+           text-decoration: none;
+       }
+
+       .content-inner .price-box {
+           text-align: left;
+           overflow: hidden;
+           margin: 0 auto;
+           text-overflow: ellipsis;
+           white-space: nowrap;
+           width: 100%;
+       }
+
+       .xj-content-product li .content-inner .current-price {
+           color: #ed5831;
+           font-size: .28rem;
+           height: .6rem;
+           display: table-cell;
+           vertical-align: bottom;
+           white-space: normal;
+       }
+
+       .content-inner .old-price {
+           color: #999;
+           font-size: .24rem;
+           margin-bottom: .1rem;
+       }
+
+       .content-inner .old-price span {
+           text-decoration: line-through;
+       }
+
+       .xj-active-tag {
+           /* position: absolute; */
+           position: relative;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           height: .4rem;
+           text-align: left;
+           font-size: 0;
+           /* overflow: hidden; */
+       }
+
+       .xj-active-tag span {
+           margin-bottom: .2rem;
+           display: inline-block;
+           font-size: .2rem;
+           color: #fff;
+           margin-right: .05rem;
+           background-color: #ed5831;
+           /* padding:.02rem; */
+           border-radius: .04rem;
+       }
+
+       .xj-active-tag span.not-self {
+           color: #9d9d9d;
+           background-color: #fff;
+           border: 1px solid #9d9d9d;
+       }
+
+       .content-inner .btn-box {
+           position: absolute;
+           bottom: 0;
+           right: 0;
+           display: none;
+       }
+
+       .xj-content-product li .content-inner .btn-box a {
+           display: block;
+           width: .6rem;
+           height: .6rem;
+           text-indent: -99999px;
+           background: url(../passport/icon_cart02.png) center center no-repeat;
+       }
+
+       .content-inner .btn-box a {
+           background: url(../passport/icon_cart02_2x.png) center center no-repeat;
+           background-size: .4rem .4rem;
+       }
+
+       /* 大牌奢品 end */
+       /* 产品专场 end */
+       /* 底部 start */
+       footer {
+           background-color: #fff;
+           margin: 0 auto;
+       }
+
+       /* 底部登录注册 start */
+       footer .home-to-top {
+           text-align: center;
+           color: #ccc;
+           font-size: 12px;
+           display: block;
+           border-bottom: 1px solid #eee;
+       }
+
+       .home-to-top a {
+           display: inline-block;
+           color: #999;
+           height: 48px;
+           text-decoration: none;
+           line-height: 48px;
+           padding: 0 10px;
+       }
+
+       .home-to-top #footerlogout span {
+           color: #ec8141;
+       }
+
+       /* 底部登录注册 end */
+       /* 底部声明 start */
+       .footer {
+           padding: 10px;
+           text-align: center;
+           color: #999;
+           background-color: #f5f5f5;
+           font-size: 10px;
+           background-color: #fff !important;
+           padding: 0px !important;
+       }
+
+       .footer p {
+           margin-top: 17px;
+           padding: 0px 10px 30px;
+           display: block;
+       }
+
+       .footer p span {
+           text-align: center;
+           color: rgb(130, 130, 130);
+           line-height: 21.6px;
+           font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", sans-serif;
+       }
+
+       /* 底部声明 end */
+       /* 底部 end */
+       /* 返回顶部 start */
+       nav {
+           position: fixed;
+           right: .2rem;
+           bottom: .4rem;
+           width: 0.8rem;
+       }
+
+       nav .cart-btn-link {
+           width: .8rem;
+           z-index: 9;
+           height: .8rem;
+           text-align: right;
+           opacity: 1;
+           margin-bottom: .2rem;
+       }
+
+       nav .top-btn-link {
+           width: .8rem;
+           z-index: 9;
+           height: .8rem;
+           text-align: right;
+           margin-bottom: .2rem;
+           opacity: 1;
+       }
+
+       nav .xj-pt-btn-back {
+           width: .8rem;
+           margin-bottom: .2rem;
+           position: absolute;
+           bottom: .6rem;
+           right: 0;
+           height: 0.8rem;
+       }
+
+       nav .xj-pt-btn-back .xj-back-btn,
+       nav .top-btn-link .xj-top-btn,
+       nav .cart-btn-link .xj-cart-btn {
+           background: url(../images/passport/top-back-btn.png) top left no-repeat;
+           background-size: .8rem .8rem;
+           width: .8rem;
+           height: .8rem;
+           display: block;
+       }
+
+       nav .cart-btn-link .xj-cart-btn {
+           background: url(../images/passport/top-cart-btn.png) top left no-repeat;
+           background-size: .8rem .8rem;
+       }
+
+       nav .top-btn-link .xj-top-btn {
+           background: url(../images/passport/topic_top_btn.png) top left no-repeat;
+           background-size: .8rem .8rem;
+       }
+
+       nav .xj-pt-btn-back .xj-back-btn {
+           background: url(../images/passport/top-cart-btn.png) top left no-repeat;
+           opacity: 0;
+           background-size: .8rem .8rem;
+       }
+
+       /* 返回顶部 end */
+
+       .nav_open_layer nav .div-list {
+           background: #fff;
+       }
+
+       .nav_open_layer nav .div-list ul {
+           display: -webkit-box;
+           display: -ms-flexbox;
+           display: flex;
+           width: 7.5rem;
+           -webkit-box-pack: start;
+               -ms-flex-pack: start;
+                   justify-content: flex-start;
+           -ms-flex-wrap: wrap;
+               flex-wrap: wrap;
+           padding-bottom: .2rem;
+       }
+
+       .nav_open_layer nav .div-list ul .swiper-slide {
+           width: 1.76rem;
+           margin-top: .13rem;
+       }
+
+       .nav_open_layer nav .div-list ul .swiper-slide span {
+           display: block;
+           color: #191919;
+           width: 100%;
+           height: .52rem;
+           font-size: .24rem;
+           text-align: center;
+           line-height: .52rem;
+           border-radius: .26rem;
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: ellipsis;
+       }
+
+       .nav_open_layer nav .div-list ul li.active {}
+
+       .nav_open_layer nav .div-list ul li.active span {
+           background-color: #666;
+           /* margin-top: .13rem; */
+           width: 100%;
+           line-height: .52rem;
+           text-align: center;
+           color: #fff;
+       }
+
+       /* 顶部蒙层 start */
+       .subject-tabnav {
+           width: 7.5rem;
+           height: .82rem;
+           background: #fff;
+       }
+
+       .subject-tabnav .open {
+           height: .8rem;
+           position: fixed;
+           top: -1rem;
+           left: 0;
+           z-index: 9997;
+           display: -webkit-box;
+           display: -ms-flexbox;
+           display: flex;
+           padding: .5rem auto;
+           -webkit-box-pack: justify;
+               -ms-flex-pack: justify;
+                   justify-content: space-between;
+           background-color: #fff;
+           border-bottom: .02rem solid #e3e3e3;
+       }
+
+       .subject-tabnav .open {
+           top: 0;
+       }
+
+       .xj-app-swiper-order {
+           width: 6.7rem;
+           line-height: auto;
+       }
+
+       .xj-app-swiper-order .swiper-wrapper {
+           display: -webkit-box;
+           display: -ms-flexbox;
+           display: flex;
+           width: 6.7rem;
+           height: .86rem;
+           -webkit-box-pack: start;
+               -ms-flex-pack: start;
+                   justify-content: flex-start;
+       }
+
+       .xj-app-swiper-order .swiper-wrapper .swiper-slide {
+           width: 1.76rem;
+           padding: .1rem 0;
+       }
+
+       .xj-app-swiper-order .swiper-wrapper .swiper-slide span {
+           display: block;
+           color: #191919;
+           width: 100%;
+           height: .52rem;
+           font-size: .24rem;
+           text-align: center;
+           line-height: .52rem;
+           border-radius: .26rem;
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: ellipsis;
+       }
+
+       .subject-tabnav .open ul li.active {
+           width: 1.4rem;
+       }
+
+       .subject-tabnav .open ul li.active span {
+           background-color: #666;
+           width: 100%;
+           text-align: center;
+           color: #fff;
+       }
+
+       .subject-tabnav .open .shadow_right {
+           width: .8rem;
+           height: .8rem;
+           z-index: 9999;
+           background: url(../images/passport/arr_bottom.png) center center no-repeat;
+           background-size: .28rem .28rem;
+       }
+
+       .subject-tabnav #nav_open_layer {
+           width: 7.5rem;
+           position: fixed;
+           top: 0;
+           left: 0;
+           z-index: 99999;
+           display: none;
+       }
+
+       .subject-tabnav #nav_open_layer nav {
+           width: 100%;
+           position: relative;
+           right: 0rem;
+           bottom: 0;
+           height: auto;
+       }
+
+       .subject-tabnav #nav_open_layer .nav_close {
+           font-size: .24rem;
+           color: #191919;
+           padding-left: .4rem;
+           position: relative;
+           text-align: left;
+           line-height: .8rem;
+           background-color: #f5f5f5;
+           border-bottom: 1px solid #e3e3e3;
+       }
+
+       .subject-tabnav #nav_open_layer .nav_close span {
+           width: .8rem;
+           height: .8rem;
+           position: absolute;
+           top: 0rem;
+           right: 0rem;
+           background: url(../images/passport/arr_top_2x.png) center center no-repeat;
+           background-size: .28rem .28rem;
+       }
+
+       /* 顶部蒙层 end */

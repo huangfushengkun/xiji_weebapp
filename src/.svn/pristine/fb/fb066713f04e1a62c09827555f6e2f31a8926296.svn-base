@@ -1,0 +1,95 @@
+#app{
+
+  /* 头部区域 */
+  font-size: .32rem;
+  header{
+    background: #fff;
+    border-bottom: none;
+    position: relative;
+    .a-bar{
+      border-bottom: 0.02rem solid #e8e8e8;
+      position: relative;
+      height: .76rem;
+      width: 100%;
+      padding: 0.14rem 0 0.12rem;
+      display: flex;
+      .a-back{
+        background: url(../images/cart/arr_left_2x_160705.png) no-repeat;
+        width: 0.44rem;
+        height: 0.44rem;
+        background-size: cover;
+        margin: 0 .20rem;
+      }
+      .a-name{
+        color: #28282e;
+        width: 5.8rem;
+        font-size: 16px;
+        text-align: center;
+        padding: 0 45px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+      .a-right{
+        background: url(../images/cart/home_btn_2x_160705.png) no-repeat;
+        width: 0.44rem;
+        height: 0.44rem;
+        background-size: cover;
+        margin: 0 .20rem;
+
+      }
+    }
+  }
+  /* 安全提示 */
+
+  /* 购物车主体 */
+  .xiji_shopCart{
+    /* 仓库样式 */
+    .shop_list{
+      height: .98rem;
+      padding: 0 5px 0 8px;
+      line-height: .96rem;
+      border-bottom: .02rem solid #e1dad8;
+      position: relative;
+      .shopCart_list_title{
+        display: flex;
+        justify-content: space-between;
+        .cart_title{
+          padding-left: .0.16rem;
+          display: flex;
+          align-items: center;
+          color: #333;
+          font-size: 0.3rem;
+          font-weight: bold;
+          span{
+            display: inline-block;
+            width: 0.4rem;
+            height: 0.4rem;
+            margin-right: 0.1rem;
+          }
+          span.checked{
+            background: url(../images/cart/bg_2x_170626.png) -0.40rem 0 no-repeat;
+            background-size: auto 0.40rem;
+          }
+        }
+        /* 查看同仓商品 */
+        .cart_sale{
+          padding-left: 0.4rem;
+          color: #ef5615;
+          background: url(../images/cart/warehouse_icon01_2x.png) center left no-repeat;
+          background-size: 0.32rem 0.3rem;
+          font-size: .24rem;
+        }
+      }
+    }
+    /* 商品样式 */
+    .shopCart_list_con{
+      height: 3.38rem;
+      li{
+        height: 100%;
+        padding: 0.2rem 0.1rem ;
+      }
+    }
+  }
+  
+}

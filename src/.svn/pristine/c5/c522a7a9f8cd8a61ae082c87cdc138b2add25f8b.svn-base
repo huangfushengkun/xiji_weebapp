@@ -1,0 +1,37 @@
+/* 公共样式 */
+
+/* 相对定位 */
+.rte{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+/* 固定定位 */
+.fxd{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* 绝对定位 */
+.ale{
+    position: absolute;
+}
+/* 文字居中 */
+.text-center{
+    text-align: center;
+}
+/* 弹性盒子 */
+.flex{
+    display: flex;
+}
+/* 居中 */
+.auto{
+    margin: 0 auto;
+}
+/* 背景白色 */
+.white{
+    background: white;
+}
+.bd{
+    border:1px solid #000;
+}

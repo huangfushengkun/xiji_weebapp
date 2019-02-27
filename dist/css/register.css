@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 注册页面开始 */
+html{
+    font-size: 100px;
+}
+header{
+    width: 7.5rem;
+    /* height: 1.15rem; */
+}
+header .box{
+    width: 7.5rem;
+    height: 2.7rem;
+    background: url(../images/register/passport_bg.jpg) no-repeat;
+    background-size: 7.5rem 2.7rem;
+    padding: .2rem; 
+}
+.box .a-back {
+    position: relative;
+    background: url(../images/register/passport_back_2x.png) center center no-repeat;
+    background-size: .3rem .3rem;
+    display: block;
+    width: .6rem;
+    height: .6rem;
+    text-indent: -10rem;
+}
+.box .a-tit{
+    color: #fff;
+    height: auto;
+    font-size: .48rem;
+    line-height: .72rem;
+    padding: 0 .70rem;
+    text-align: left;
+}
+header .box-tit{
+    width: 6.1rem;
+    height: .74rem;
+    line-height: .74rem;
+    margin: .4rem auto;
+    border-bottom: .01rem solid #000;
+    display: flex;
+    align-items: center;
+}
+header .box-tit .tel-icon{
+    font-size: .28rem;
+    line-height: .74rem;
+    display: inline;
+    width: .6rem;
+}
+header .box-tit .text{
+    width: 5rem;
+    height: .52rem;
+    padding: 0 10%;
+    font-size: 14px;
+    border: 0;
+    outline: 0;
+    margin: 0 auto;
+}
+header .box-tit .flag-icon{
+    width: .95rem;
+    display: block;
+    height: .3rem;
+    display: flex;
+
+}
+header .box-tit .flag-icon img{
+    width: .5rem;
+    height: .3rem;
+    vertical-align: middle;
+    float: none;
+}
+header .box-tit .flag-icon i{
+    display: inline-block;
+    width: .3rem;
+    height: .3rem;
+    margin-left: .14rem;
+    background: url(../images/register/arr_bottom.png) center center no-repeat;
+    background-size: .3rem .3rem;
+}
+header .empty{
+    width: 6.1rem;
+    height: .56rem;
+    margin: 0 auto;
+    margin-top: -.4rem;
+    margin-bottom: -.4rem;
+}
+header .empty1{
+    width: 6.1rem;
+    height: .56rem;
+    margin: 0 auto;
+    margin-top: -.4rem;
+}
+header .box-c{
+    width: 6.1rem;
+    height: .56rem;
+    margin: 0 auto;
+    font-size: .28rem;
+    display: flex;
+    align-items:center; 
+}
+header .box-c .license{
+
+}
+header .box-c .lnk{
+    width: 5rem;
+    margin-left: .1rem;
+    line-height: .56rem;
+}
+header .box-d{
+    width: 6.1rem;
+    height: 1rem;
+    font-size: .3rem;
+    color: #fff;
+    background-color: #aaa;
+    border-radius: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    margin: 0 auto;
+    margin-top: .5rem;
+}

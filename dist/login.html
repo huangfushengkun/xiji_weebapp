@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/swiper.min.css" />
+  <link rel="stylesheet" href="css/login0.css">
+  <script src="js/base.js"></script>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/gt.js"></script>
+  <script src="js/iosSelect.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <title>登录</title>
+ 
+  <script src="js/login.js"></script>
+</head>
+
+<body>
+  <!-- 顶部广告 start -->
+  <article>
+    <div class="article-mian">
+      <div class="close-btn"><span></span></div>
+      <script>tabs.close();</script>
+      <a href="">
+        <div class="bannerInner">
+          <div class="banner-logo"><span></span></div>
+          <div class="banner-txt">
+            下载西集全球购 注册即送300元<br />西集全球购 - 收罗全球心动好物
+          </div>
+          <div class="banner-btn"><span>立即打开</span></div>
+        </div>
+      </a>
+    </div>
+  </article>
+  <!-- 顶部广告 end -->
+  <!-- 登录 start -->
+  <header>
+    <div class="header-main">
+      <div class="a-bar">
+        <div class="a-back">
+          <a href=""><img src="images/login/arr_left_2x_160705.png" alt="" /></a>
+        </div>
+        <div class="a-name"><span>登录</span></div>
+        <div class="a-right">
+          <a href=""><img src="images/login/home_btn_2x_160705.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- 登录 end -->
+  <!-- 登录流程 start -->
+  <main>
+    <div class="main-cont">
+      <div class="xj-login-list">
+        <ul class="login-tabs tabs">
+          <li class="tab-link">
+            <span class="init">账号密码登陆</span><i class="active"></i>
+          </li>
+          <li class="tab-link"><span>手机快捷登录</span><i></i></li>
+        </ul>
+      </div>
+      <div class="swiper-container xiji-tab" id="tab">
+        <div class="swiper-wrapper">
+          <!-- 账号密码登录 start -->
+          <div class="swiper-slide xiji-singin xiji-list">
+            <form action="" class="xj-wap-singin">
+              <div class="xj-sigin-new">
+                <div class="inputStyle user">
+                  <label>账户</label>
+                  <input type="text" name="uname" value="" placeholder="用户名/邮箱/手机号" class="text a-account required"
+                    data-caution="用户名不能为空" />
+                  <span class="close-btn"></span>
+                </div>
+                <div class="inputStyle password">
+                  <label>密码</label>
+                  <input type="password" name="password" placeholder="填写密码" class="text required a-password"
+                    autocomplete="new-password" data-caution="密码不能为空" />
+                  <span class="close-btn"></span>
+                </div>
+              </div>
+              <div class="c-g-c">
+                <label class="f-l">
+                  <input type="checkbox" name="is_remember" checked="checked"/> 记住我
+                </label>
+              </div>
+              <div class="btn-bar">
+                <button type="button" class="btn orange signinbtn" id="signin_normal_btn" rel="_request">
+                  登录
+                </button>
+              </div>
+              <div class="signup-link">
+                <a href="passport-mobilesignup.html" class="lnk signup-btn">
+                  <span>免费注册</span>
+                </a>
+                <a href="passport-lost.html" class="lnk passpor-btn">忘记密码?</a>
+              </div>
+              <div class="third-login-box">
+                <div class="tit"><span>选择其他登录方式</span></div>
+                <div class="third-login-list">
+                  <p>
+                    <a href="" class="microblog"> <span></span>微博 </a>
+                    <a href="" class="qq"> <span></span>QQ </a>
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- 账号密码登录 end -->
+          <!-- 手机号登录 start -->
+          <div class="swiper-slide pro-box-btm xiji-list">
+            <form action="" class="xj-wap-singin">
+              <div class="xj-sigin-new">
+                <div class="inputStyle tel">
+                  <label for="phone">手机号</label>
+                  <span class="tel-icon">+86</span>
+                  <input type="text" name="pam_account[login_name]" value="" placeholder="手机号" maxlength="11" pattern="^1[3456789]\d{9}$"
+                    id="phone" data-caution="手机号不能为空" class="text a-account-quicklogin required" />
+                  <span class="vcode-btn send1" id="get_vcode_btn">发送验证码</span>
+                  <script>
+                    $("#get_vcode_btn").on("click",function(){
+                          sends.send()
+                      })
+                    </script>
+                  <span class="close-btn"></span>
+                </div>
+                <div class="inputStyle a-need-verify">
+                  <label>验证码</label>
+                  <input type="password" name="vcode" placeholder="输入收到的验证码" pattern="[0-9]*" class="text required"
+                    autocomplete="new-password" data-caution="短信验证码不能为空" maxlength="20" />
+                  <span class="close-btn"></span>
+                </div>
+              </div>
+              <div class="btn-bar">
+                <button type="button" class="btn orange signinbtn" id="signin_normal_btn" rel="_request">
+                  登录
+                </button>
+              </div>
+              <div class="third-login-box photo-info">
+                <div class="tit photo-tit">
+                  如果您的账号未注册，则为您自动注册，也将默认您接受
+                  <a href="">《西集注册协议和隐私政策》</a>的全部内容
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- 手机号登录 end -->
+          <script>
+            tabs.clearinput();
+            tabs.saveStorage();
+          </script>
+          <script>
+            $(".signinbtn").on("click", function () {
+              /**
+               *点击登录发起ajax请求
+               */
+              $.ajax({
+                type: "get",
+                url: "api/passport.php",
+                dataType: "json",
+                data: {
+                  tel: $(".a-account").val(),
+                  pass: $(".a-password").val()
+                },
+                beforeSend: function () {
+                  $(".signinbtn").text("登 录 中 ~");
+                },
+                success: function (data) {
+                  tabs.errInfo(data);
+                },
+                error: function (err) {
+                  console.log(err);
+                },
+                complete: function () {
+                  console.log("a");
+                  $(".signinbtn").text("登 录 ");
+                }
+              });
+            });
+          </script>
+        </div>
+      </div>
+      <script>
+        tabs.tabsSwiper();
+      </script>
+    </div>
+  </main>
+  <!-- 登录流程 end -->
+</body>
+
+</html>

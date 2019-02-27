@@ -1,0 +1,297 @@
+/* 自定义样式 */
+/* 适配移动端 比例1rem：100px */
+html{
+    font-size: 26.666666vw;
+}
+/* 结束 */
+
+/* 团购广场开始 */
+.wrap header{
+    width: 3.75rem;
+    height: 0.38rem;
+}
+header .a-bar{
+    width: 3.75rem;
+    height: 0.37rem;
+    padding: 0.07rem 0 0.06rem 0;
+    border-bottom: 0.01rem solid #e8e8e8;
+}
+.a-bar .a-back{
+    width: 0.22rem;
+    height: 0.22rem;
+    top: 0.07rem;
+    left: 0.1rem;
+    background: url(../images/image/10.png); 
+    background-size: 0.22rem 0.22rem;
+}
+.a-bar .a-name{
+    color: #28282e;
+    font-size: 0.16rem;
+    padding: 0 0.45rem;
+}
+.a-bar .xj-wap-a-home{
+    width: 0.22rem;
+    height: 0.22rem;
+    top: 0.07rem;
+    right: 0.10rem;
+    background: url(../images/image/11.png);
+    background-size: 0.22rem 0.22rem;
+}
+/* 团购广场结束 */
+/* 导航栏开始 */
+.wrap .link_block_box{
+    width: 3.75rem;
+    height: 0.45rem;
+    overflow: hidden;
+}
+.link_block_box .swiper-wrapper{
+    width: 4.5rem;
+    height: 0.45rem;
+}
+.swiper-wrapper li{
+    width: 0.8259rem;
+    height: 0.45rem;
+}
+.swiper-wrapper li a{
+    width: 0.48rem;
+}
+.swiper-wrapper li a span{
+    font-size: 0.12rem;
+    width: 0.48rem;
+    border-bottom: 0.02rem solid #fff;
+    color: #1a1a1a;
+    height: 0.21rem;
+    margin-top: 0.15rem;
+}
+/* 实验 */
+.swiper-wrapper li .box8{
+    width: 0.6rem;
+}
+.swiper-wrapper li a .box9{
+    font-size: 0.15rem;
+    width: 0.6rem;
+    border-bottom: 0.02rem solid #bf2230;
+    color: #1a1a1a;
+    height: 0.21rem;
+    margin-top: 0.15rem;
+    line-height: 0.16rem;
+    font-weight: bold;
+}
+/* 结束 */
+.link_block_box .shadow_right{
+    width: 0.415rem;
+    height: 0.43rem;
+    top: 0;
+    right: 0;
+}
+/* 导行结束 */
+
+/* 窗口导航开始 */
+
+/* 商品 1 开始 */
+.wrap .recommend-box{
+    width: 3.75rem;
+    padding:0.1rem 0.08rem;
+}
+.recommend-box .recommend-goods-box{
+    width: 3.59rem;
+    height: 3.93rem;
+    margin-bottom: 0.10rem;
+}
+.recommend-goods-box .box-inner{
+    width: 3.59rem;
+    height: 3.93rem;
+    padding:0.15rem 0.1rem 0.1rem;;
+}
+.box-inner .goods-img{
+    width: 3.39rem;
+    height: 2.37rem;
+    padding: 0 0.508rem;
+}
+.goods-img a img{
+    width: 2.37rem;
+    height: 2.37rem;       
+}
+.goods-img a .already-part {
+    width: 0.83rem;
+    height: 0.21rem;
+    display: inline-block;
+    left: 0;
+    bottom: 0.1rem;
+    color: #fff;
+    font-size: 0.11rem;
+    padding: 0.03rem 0.1rem 0.02rem 0.03rem;
+    border-radius: 0.1rem;
+    background-color: #d97880;
+    text-align: center;
+}
+.already-part i{
+    display: inline-block;
+    width: 0.88rem;
+    height: 0.21rem;
+    background: url(../image/14.png) top left no-repeat;
+    background-size: 0.15rem 0.15rem;
+}
+.box-inner .goods-name{
+    color: #1a1a1a;
+    font-size: 0.15rem;
+    font-weight: bold;
+    margin-top: 0.15rem;     
+}
+.goods-name a{
+    color: #333;
+}
+.box-inner .goods-price {
+    color: #666;
+    font-size: 0.13rem;
+    margin-top: 0.05rem;
+}
+.goods-price .xiji-price{
+    color: #bf2230;
+    font-size:0.23rem;
+    margin-left: 0.03rem;
+}
+.goods-price span.market-price {
+    display: inline-block;
+    color: #808080;
+    font-size: 0.11rem;
+    font-weight: normal;
+    width: 1.15rem;
+    height: 0.17rem;
+    margin-left: 0.08rem;
+}
+.goods-price span.market-price i{
+    font-style: normal;
+    text-decoration: line-through;
+}
+.box-inner .group-btn-box{
+    margin-top: 0.15rem;
+}
+.group-btn-box .group-condition{
+    float: left;
+    color: #666;
+    font-size: 0.13rem;
+    line-height: 0.25rem;
+    padding-left: 0.3rem;
+    background: url(../image/15.png) top left no-repeat;
+    background-size: 0.25rem 0.25rem;
+}
+.group-btn-box .group-btn{
+    float: right;
+    width: 1.20rem;
+    height: 0.40rem;
+    text-align: center;
+    border-radius: 0.20rem;
+    background-color: #bf2230;
+}
+.group-btn-box .group-btn a{
+    display: block;
+    color: #fff;
+    font-size: 0.13rem;
+    line-height: 0.40rem;
+}
+.group-btn-box .group-btn a i {
+    display: inline-block;
+    border-top: 0.05rem solid transparent;
+    border-bottom: 0.05rem solid transparent;
+    border-left: 0.05rem solid #fff;
+    vertical-align: middle; 
+    margin-left: 0.07rem;
+    margin-bottom: 0.02rem;
+}
+.wrap .next-btn {
+    width: 1.80rem;
+    height: 0.33rem;
+    margin: 0.20rem auto;
+    text-align: center;
+    border-radius: 0.16rem;
+    background-color: #e5e5e5;
+    font-size: 0.12rem;
+}
+/* 商品结束 */
+
+/* 商品2开始 */
+.wrap .other-goods-box{
+    padding-top: 2.5%;
+}
+.other-goods-box ul{
+    flex-wrap:  wrap; 
+    align-content: flex-start;  
+    width: 97.5%;
+    margin-right: 2.5%;
+}
+.other-goods-box ul li{
+    width: 1.7367rem;
+    height: 2.46rem;
+    /* background: red; */
+    padding: 0.1rem 0.0548rem;
+    margin: 0 0 2.5% 2.5%;
+}
+.other-goods-box ul li a{
+    color:#333;
+}
+.other-goods-box ul li .img-box{
+    padding: 0.1rem;
+    height: 1.63rem;
+}
+.other-goods-box ul li .tit-box{
+    font-size: 0.12rem;
+    height: 0.32rem;
+    line-height: 0.16rem;   
+    overflow: hidden;
+    margin-top: 0.05rem;
+}
+.other-goods-box ul li .tit-box img{
+    vertical-align: -3px;
+    margin-right: 3px;
+    width: 0.26rem;
+    height: 0.16rem;
+}
+.other-goods-box ul li .price-box {
+    color: #e45924;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.other-goods-box ul li .num-tag {
+    display: table;
+    top: 0;
+    left: 0;
+    width: 0.34rem;
+    height: 0.34rem;
+    color: #fff;
+    font-size: 10px;
+    line-height: 1;
+    background:url(/image/12.png)center right no-repeat;
+    background-size: 0.34rem 0.34rem;
+}
+.other-goods-box ul li .num-tag span {
+    width: 0.34rem;
+    height: 0.34rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+.other-goods-box ul li .goods-num {
+    bottom: 0.1rem;
+    right: 0.1rem;
+    color: #666;
+    font-size: 0.1rem;
+}
+/* 商品结束 */
+
+/* 底部开始 */
+.wrap .next-btn a{
+    line-height: 0.33rem;
+}
+.next-btn a i{
+    display: inline-block;
+    border-left:0.05rem solid #666;
+    border-top:0.05rem solid transparent;
+    border-bottom:0.05rem solid transparent;
+    vertical-align: middle;
+    margin-left: 0.07rem;
+    margin-bottom: 0.02rem;
+}
+/* 结束 */
+
+
+
